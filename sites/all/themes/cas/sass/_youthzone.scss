@@ -1,0 +1,708 @@
+body.node-type-child-and-youth-page
+{
+	#main-wrapper
+	{
+		background:#00b4ff url(../images/clouds.png);
+		overflow:hidden;
+		position:relative;
+
+		& > div
+		{
+			overflow:hidden;
+			background:url(../images/ground.png) no-repeat center bottom;
+			position:relative;
+			z-index:1;
+
+			& > div
+			{
+
+				& > div
+				{
+					width:100%;
+					max-width:1000px;
+					margin:0 auto;
+				}
+			}
+		}
+
+		&:before,
+		&:after
+		{
+			content:"";
+			display:block;
+			width:50%;
+			position:absolute;
+			bottom:0;
+			height:258px;
+		}
+		&:before
+		{
+			left:0;
+			background:url(../images/ground-repeat-left.png) repeat-x left bottom;
+		}
+		&:after
+		{
+			right:0;
+			background:url(../images/ground-repeat-right.png) repeat-x right bottom;
+		}
+	}
+
+	a#child-and-youth-zone-title
+	{
+		display:block;
+		height:400px;
+		text-align:center;
+		position: relative;
+
+		img
+		{
+			margin-top:42px;
+			height:auto!important;
+			width:auto!important;
+			max-width:100%;
+		}
+
+		&:before
+		{
+			content: "";
+			display: block;
+			position: absolute;
+			left: 0;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			background: url(../images/starburst.png) no-repeat center center;
+			z-index:-3;
+		}
+	}
+
+	#block-menu-menu-child-and-youth-menu
+	{
+		width:250px;
+		float:left;
+
+		& > .content
+		{
+
+			& > div > ul
+			{
+				list-style:none;
+				margin:0;
+				padding:0;
+				overflow:hidden;
+				padding-bottom:20px;
+
+				& > li
+				{
+					list-style:none;
+					margin:30px 0;
+					padding:0;
+					position:relative;
+
+					&:before
+					{
+						content:"";
+						display:block;
+						width:100%;
+						height:51px;
+						position:absolute;
+						top:50%;
+						margin-top:-26px;
+						left:100%;
+						z-index:1;
+						background:url(../images/ribbon-top.png) no-repeat left center;
+						transition:left 0.5s;
+						-webkit-transition:left 0.5s;
+						-moz-transition:left 0.5s;
+					}
+					&:hover:before
+					{
+						left:5px;
+					}
+
+					&:after
+					{
+						content:"";
+						display:block;
+						width:84px;
+						height:51px;
+						position:absolute;
+						top:50%;
+						left:100%;
+						margin-top:-6px;
+						z-index:0;
+						background:url(../images/ribbon-bottom.png);
+						transition:left 0.5s;
+						-webkit-transition:left 0.5s;
+						-moz-transition:left 0.5s;
+						outline: 1px solid transparent;
+
+						@include animation(ribbon, 0, 1.5s, infinite, linear);
+					}
+					&:hover:after
+					{
+						left:15px;
+					}
+
+					&.last
+					{
+						&:before,
+						&:after
+						{
+							display:none;
+						}
+
+						a.tw
+						{
+							background:url(../images/btn-tw.png) no-repeat right center;
+							text-indent:-99999px;
+							color:transparent;
+							padding-top:0;
+							padding-bottom:0;
+							height:62px;
+							margin-top:20px;
+							margin-right:7px;
+						}
+					}
+
+					a
+					{
+						display:block;
+						padding:0 4px 0 50px;
+						text-align:right;
+						color:white;
+						text-decoration:none;
+						font-size:1.25em;
+						position:relative;
+						z-index:2;
+					}
+				}
+			}
+		}
+
+		.youth-zone-menu-btn
+		{
+			display: none;
+			color: white;
+			text-decoration: none;
+			font-size:1.35em;
+			padding:5px 0;
+			position: relative;
+			text-align: center;
+
+			&:before
+			{
+				content:"";
+				position:absolute;
+				left:50%;
+				margin-left:-115px;
+				top:15px;
+				width: 0;
+				height: 0;
+				border-style: solid;
+				border-width: 6px 0 6px 10.4px;
+				border-color: transparent transparent transparent white;
+			}
+			&.open:before
+			{
+				border-width: 10.4px 6px 0 6px;
+				border-color: white transparent transparent transparent;
+			}
+		}
+	}
+
+	#content
+	{
+		width:100%;
+		max-width:620px;
+		float:left;
+		background:white;
+		border:5px solid #d1d2d4;
+		border-radius:14px;
+		margin-bottom:5px;
+		margin-left:10px;
+		position:relative;
+
+		&:before
+		{
+			content:"";
+			display:block;
+			position:absolute;
+			left:-15px;
+			top:-30px;
+			bottom:170px;
+			border-left:5px solid #818285;
+			z-index:1;
+		}
+		&:after
+		{
+			content:"";
+			display:block;
+			position:absolute;
+			left:-10px;
+			top:-30px;
+			bottom:170px;
+			border-left:10px solid #d1d2d4;
+			z-index:1;
+		}
+
+		& > div
+		{
+			&:before
+			{
+				content:"";
+				display:block;
+				position:absolute;
+				left:-23px;
+				top:-55px;
+				width:0;
+				height:0;
+				border:15px solid #e5d13c;
+				border-radius:15px;
+				z-index:2;
+			}
+		}
+	}
+
+	#page-title
+	{
+		background:none;
+		min-height:70px;
+
+		&:after
+		{
+			display:none;
+		}
+
+		h1
+		{
+			color:$blue;
+			text-shadow:none;
+			font-weight:normal;
+		}
+	}
+
+	#block-system-main
+	{
+		min-height:650px;
+
+		& > div
+		{
+			padding:0 100px 30px 100px;
+		}
+	}
+
+	#tree
+	{
+		width: 775px;
+		height: 873px;
+		background:url(../images/tree.png) no-repeat;
+		position: absolute;
+		right: -300px;
+		bottom: 150px;
+		z-index: -2;
+	}
+
+	#kite
+	{
+		width:286px;
+		height: 315px;
+		position: absolute;
+		left:-220px;
+		top: -260px;
+		z-index:-1;
+
+		&:before
+		{
+			content:"";
+			display: block;
+			width:96px;
+			height: 140px;
+			background: url(../images/kite.png) no-repeat;
+			position: absolute;
+			top: 3px;
+			left: 1px;
+			z-index: 1;
+
+			@include animation(kite, 0, 6s, infinite, linear);
+		}
+		&:after
+		{
+			content:"";
+			display: block;
+			width: 216px;
+			height: 175px;
+			background: url(../images/kite-string.png) no-repeat;
+			position: absolute;
+			right: 0;
+			bottom: 0;
+		}
+	}
+
+	#apple
+	{
+		width: 39px;
+		height: 48px;
+		background: url(../images/apple.png) no-repeat;
+		position: absolute;
+		bottom: 450px;
+		right: -60px;
+		outline: 1px solid transparent;
+
+		@include animation(apple, 3s, 3s, 1, linear);
+	}
+
+	#bird
+	{
+		width: 85px;
+		height: 63px;
+		background: url(../images/bird.png) no-repeat;
+		position: absolute;
+		top: -56px;
+		left: 35px;
+		z-index: 1;
+
+		& > div
+		{
+			width: 5px;
+			height: 4px;
+			background: url(../images/bird-eye.png) no-repeat;
+			position: absolute;
+			top:9px;
+			left: 70px;
+
+			@include animation(bird, 3s, 10s, infinite, steps(1));
+		}
+	}
+
+	#fox
+	{
+		width:98px;
+		height: 121px;
+		background: url(../images/fox-body.png) no-repeat;
+		position: absolute;
+		bottom: 180px;
+		left: -210px;
+
+		& > div
+		{
+			width: 90px;
+			height: 101px;
+			background: url(../images/fox-tail.png) no-repeat;
+			position: absolute;
+			top: 8px;
+			left: -52px;
+			z-index: -1;
+
+			@include animation(fox-tail, 6s, 8s, infinite, linear);
+		}
+
+		&:before
+		{
+			content:"";
+			width: 20px;
+			height: 22px;
+			background: url(../images/fox-left-ear.png) no-repeat;
+			position: absolute;
+			left: 31px;
+			top: -7px;
+
+			@include animation(fox-left-ear, 4s, 10s, infinite, linear);
+		}
+		&:after
+		{
+			content:"";
+			width: 16px;
+			height: 17px;
+			background: url(../images/fox-right-ear.png) no-repeat;
+			position: absolute;
+			left: 54px;
+			top: -14px;
+
+			@include animation(fox-right-ear, 4s, 10s, infinite, linear);
+		}
+	}
+
+	#worm
+	{
+		width: 33px;
+		height: 45px;
+		position: absolute;
+		right:-110px;
+		bottom: 165px;
+		overflow: hidden;
+
+		&:before
+		{
+			content:"";
+			display: block;
+			width: 27px;
+			height: 10px;
+			position: absolute;
+			bottom: -10px;
+			left:0;
+			background: url(../images/worm-dirt-1.png) no-repeat;
+			z-index: 2;
+
+			@include animation(worm-dirt-1, 7s, 1s, 1, steps(1));
+		}
+		&:after
+		{
+			content:"";
+			display: block;
+			width: 13px;
+			height: 8px;
+			position: absolute;
+			bottom: -8px;
+			left:2px;
+			background: url(../images/worm-dirt-2.png) no-repeat;
+			z-index: 0;
+
+			@include animation(worm-dirt-2, 7s, 1s, 1, steps(1));
+		}
+
+		& > div
+		{
+			width: 23px;
+			height: 43px;
+			position: absolute;
+			top:100%;
+			z-index: 1;
+
+			@include transform(rotate(90deg) translateY(10px) translateX(-10px));
+			@include animation(worm, 7s, 3.5s, 1, linear);
+
+			& > div
+			{
+				width: 100%;
+				height:100%;
+				background:url(../images/worm.png) no-repeat;
+			}
+		}
+	}
+
+	#nest
+	{
+		width: 71px;
+		height: 35px;
+		position: absolute;
+		bottom: 870px;
+		right: 0;
+		background: url(../images/nest.png) no-repeat;
+		z-index: -1;
+
+		& > div
+		{
+			width: 15px;
+			height: 15px;
+			position: absolute;
+			left: 41px;
+			top:-1px;
+			background: url(../images/egg.png) no-repeat;
+
+			@include animation(egg, 2s, 2.5s, 1, linear);
+
+			& > div
+			{
+				width:100%;
+				height:100%;
+				height:0;
+				background: url(../images/egg-crack.png) no-repeat center bottom;
+				position: absolute;
+				bottom: 0;
+				left: 0;
+
+				@include animation(egg-crack, 5s, 0.5s, 1, ease);
+			}
+		}
+	}
+
+	.view-preschool-links,
+	.view-school-aged-links
+	{
+		a
+		{
+			display: block;
+			font-size:1.25em;
+			padding:14px 0 14px 60px;
+			margin-bottom: 4px;
+			background:url(../images/icon-link.png) no-repeat left center;
+		}
+	}
+
+	#block-menu-menu-youth-zone-menu
+	{
+		.content ul
+		{
+			list-style: none;
+			margin:0;
+			padding: 0;
+			float: left;
+			margin-right: 30px;
+
+			li
+			{
+				list-style: none;
+				padding: 0;
+				margin: 0 0 6px 0;
+				width:140px;
+
+				a
+				{
+					color:white;
+					background: $blue;
+					display: block;
+					text-align: center;
+					padding:10px;
+					border-bottom: 2px solid #00396e;
+					border-radius:8px;
+					text-decoration:none;
+
+					&:hover
+					{
+						background: $orange;
+						border-bottom-color:#c87800;
+					}
+				}
+			}
+		}
+	}
+
+	#block-views-child-and-youth-gallery-block
+	{
+		position: relative;
+
+		.view-child-and-youth-gallery
+		{
+			width:100%;
+			height: 800px;
+			overflow: hidden;
+		}
+
+		.view-content
+		{
+			position:relative;
+			left:0;
+		}
+
+		.views-row
+		{
+			position: absolute;
+			top:0;
+			left:0;
+			width:100%;
+
+			img
+			{
+				width:100%;
+				height:auto;
+			}
+		}
+
+		a.arrow-left
+		{
+			display: block;
+			position: absolute;
+			left:-45px;
+			top:150px;
+			width:36px;
+			height: 36px;
+			background: url(../images/arrow-left.png) no-repeat;
+			color:transparent;
+			text-indent:-99999px;
+		}
+		a.arrow-right
+		{
+			display: block;
+			position: absolute;
+			right:-45px;
+			top:150px;
+			width:36px;
+			height: 36px;
+			background: url(../images/arrow-right.png) no-repeat;
+			color:transparent;
+			text-indent:-99999px;
+		}
+	}
+}
+
+@include keyframes(ribbon)
+{
+	0%, 100% { @include transform(skewX(0deg) rotate(0deg)); }
+	25% { @include transform(skewX(5deg) rotate(3deg)); }
+	75% { @include transform(skewX(-5deg) rotate(-3deg)); }
+}
+
+@include keyframes(kite)
+{
+	0%, 100% { @include transform(skewX(0deg) rotate(0deg)); }
+	10% { @include transform(skewX(5deg) rotate(4deg)); }
+	30% { @include transform(skewX(-5deg) rotate(-4deg)); }
+	55% { @include transform(skewX(5deg) rotate(4deg)); }
+	70% { @include transform(skewX(-5deg) rotate(-4deg)); }
+}
+
+@include keyframes(apple)
+{
+	0% { @include transform(rotate(0deg) translateX(0) translateY(0)); }
+	20% { @include transform(rotate(4deg) translateX(-3px)); }
+	40% { @include transform(rotate(-4deg) translateX(3px)); }
+	60% { @include transform(rotate(0deg) translateX(0)); @include animation-timing(ease-in); }
+	80% { @include transform(translateY(280px)); @include animation-timing(linear); }
+	90% { @include transform(translateY(265px) rotate(-35deg)); }
+	100% { @include transform(translateY(280px) rotate(-65deg)); }
+}
+
+@include keyframes(bird)
+{
+	0% { @include transform(scaleX(1)); }
+	20% { @include transform(scaleX(-1)); }
+	40%, 100% { @include transform(scaleX(1)); }
+}
+
+@include keyframes(fox-tail)
+{
+	0%, 20%, 100% { @include transform(rotate(0) translateX(0) translateY(0)); }
+	2%, 10% { @include transform(rotate(-20deg) translateX(-10px) translateY(8px)); }
+	6%, 14% { @include transform(rotate(15deg) translateX(12px) translateY(-12px)); }
+}
+
+@include keyframes (fox-right-ear)
+{
+	0%, 10%, 100% { @include transform(scaleY(1) translateY(0)); }
+	5% { @include transform(scaleY(0.7) translateY(3px)); }
+}
+
+@include keyframes (fox-left-ear)
+{
+	0%, 10%, 100% { @include transform(scaleY(1) scaleX(1) translateY(0) translateX(0)); }
+	5% { @include transform(scaleY(0.70) scaleX(0.8) translateY(3px) translateX(1px)); }
+}
+
+@include keyframes (worm)
+{
+	0% { @include transform(rotate(90deg) translateX(-10px) translateY(10px)); }
+	5% { @include transform(rotate(75deg) translateX(-29px) translateY(10px)); }
+	10% { @include transform(translateY(-29px)); }
+	15%, 100% { @include transform(translateY(-40px) translateX(8px)); }
+}
+@include keyframes (worm-dirt-1)
+{
+	0%, 100% { @include transform(translateY(-9px)); }
+}
+@include keyframes (worm-dirt-2)
+{
+	0%, 100% { @include transform(translateY(-11px)); }
+}
+
+@include keyframes (egg)
+{
+	0%, 10%, 60%, 100% { @include transform(rotate(0) translateX(0)); }
+	2%, 6%, 52%, 56% { @include transform(rotate(-10deg) translateX(-1px)); }
+	4%, 8%, 54%, 58% { @include transform(rotate(10deg) translateX(1px)); }
+}
+@include keyframes (egg-crack)
+{
+	0% { height:0; }
+	100% { height:100%; }
+}

@@ -1,0 +1,416 @@
+input[type=text],
+input[type=email],
+input[type=password],
+.webform-component-textfield input,
+textarea
+{
+	border-color:$blue;
+	border-width:1px;
+	font-size:0.9em;
+	color:$blue;
+	width:187px;
+	padding:0 8px;
+	height:25px;
+	line-height:25px;
+	box-shadow:2px 2px 4px rgba(0,83,160,0.3) inset;
+}
+
+textarea
+{
+	height:100px!important;
+	width:442px!important;
+	line-height:125%;
+	padding:6px;
+}
+
+.button
+{
+	display:inline-block;
+	min-width:116px;
+	line-height:34px;
+	text-align:center;
+	color:white;
+	font-size:1em;
+	font-weight:bold;
+	background:$orange;
+	border:0;
+	border-bottom:4px solid #c87800;
+	border-radius:7px;
+	text-decoration:none;
+	cursor:pointer;
+	padding:2px 8px 0 8px;
+}
+input[type=button],
+input[type=submit],
+button
+{
+	@extend .button;
+}
+
+form
+{
+	.description
+	{
+		color:$orange;
+	}
+
+	.form-required
+	{
+		color:$orange;
+	}
+}
+
+form#webform-client-form-34
+{
+	max-width:729px;
+
+	label
+	{
+		width:270px;
+		margin-right:15px;
+		float:left;
+		clear:left;
+	}
+
+	.form-item
+	{
+		padding:3px 0;
+		margin-bottom:10px;
+		clear:both;
+		overflow:hidden;
+
+		.form-checkboxes
+		{
+			overflow:hidden;
+			margin-bottom:10px;
+
+			.form-item
+			{
+				float:left;
+				width:142px;
+				clear:none;
+				padding-right:32px;
+				margin-right:45px;
+				position: relative;
+				min-height:26px;
+				overflow: visible;
+
+				input
+				{
+					float:right;
+					margin-right:-20px;
+				}
+
+				&:not(#foo)
+				{
+					input
+					{
+						opacity:0;
+					}
+
+					input + label:after
+					{
+						content:"";
+						display: block;
+						width: 26px;
+						height: 26px;
+						background: url(../images/checkbox.png) no-repeat left center;
+						position: absolute;
+						top: 0;
+						right: 0;
+					}
+
+					input:checked + label:after
+					{
+						background-position:-26px center;
+					}
+
+					input:focus + label:after
+					{
+						box-shadow:0 0 5px $blue;
+					}
+				}
+
+				label
+				{
+					width:auto;
+					float:none;
+					clear:none;
+					margin-right:0;
+					padding-right:30px;
+				}
+			}
+		}
+
+		&#webform-component-during_what_time_of_day_would_you_like_to_volunteer
+		{
+			.form-checkboxes .form-item
+			{
+				width:90px;
+				margin-right:38px;
+			}
+		}
+	}
+
+	.description
+	{
+		float:left;
+		clear:left;
+		width:270px;
+	}
+
+
+
+	#webform-component-first_name
+	{
+		overflow:visible;
+		padding:0;
+		margin:0;
+
+		input
+		{
+			float:left;
+			margin-right:30px;
+		}
+	}
+	#webform-component-last_name
+	{
+		clear:none;
+		float:left;
+		padding:0;
+
+		label
+		{
+			display:none;
+		}
+	}
+
+	#webform-component-address_line_1,
+	#webform-component-address_line_2
+	{
+		input
+		{
+			width:422px;
+		}
+	}
+
+	#webform-component-please_review_to_ensure_your_information_is_correct
+	{
+		.form-checkboxes
+		{
+			input
+			{
+				float:none;
+			}
+
+			label
+			{
+				display:none;
+			}
+		}
+	}
+
+	.form-actions
+	{
+		clear:both;
+		padding-left:285px;
+	}
+}
+
+form#webform-client-form-35
+{
+	max-width:729px;
+
+	label
+	{
+		width:270px;
+		margin-right:15px;
+		float:left;
+		clear:left;
+	}
+
+	.form-item
+	{
+		padding:3px 0;
+		margin-bottom:10px;
+		clear:both;
+		overflow:hidden;
+	}
+
+	.description
+	{
+		float:left;
+		clear:left;
+		width:270px;
+	}
+
+	.form-actions
+	{
+		clear:both;
+		padding-left:285px;
+	}
+
+	#webform-component-first_name,
+	#webform-component-your_first_name
+	{
+		overflow:visible;
+		padding:0;
+		margin:0;
+
+		input
+		{
+			float:left;
+			margin-right:30px;
+		}
+	}
+	#webform-component-last_name,
+	#webform-component-your_last_name
+	{
+		clear:none;
+		float:left;
+		padding:0;
+
+		label
+		{
+			display:none;
+		}
+	}
+
+	#webform-component-address_line_1,
+	#webform-component-address_line_2,
+	#webform-component-your_address_line_1,
+	#webform-component-your_address_line_2
+	{
+		input
+		{
+			width:422px;
+		}
+	}
+
+	#webform-component-phone_number
+	{
+		overflow:visible;
+		padding:0;
+		margin:0;
+
+		input
+		{
+			float:left;
+			margin-right:20px;
+		}
+	}
+	#webform-component-first_nations
+	{
+		clear:none;
+		padding:0;
+		margin-bottom:20px;
+
+		label
+		{
+			width:auto;
+			clear:none;
+			margin-right:8px;
+		}
+
+		.description
+		{
+			color:$blue;
+			font-size:0.8em;
+			padding-top:4px;
+			width:217px;
+			line-height:100%;
+			width:auto;
+		}
+
+		select
+		{
+			position:absolute;
+		}
+	}
+}
+
+body.page-user,
+body.page-user-login
+{
+	#content > div > div > .tabs
+	{
+		display:none;
+	}
+
+	form#user-login
+	{
+		width:432px;
+		margin:0 auto;
+		overflow:hidden;
+
+		.form-required
+		{
+			display:none;
+		}
+
+		label
+		{
+			color:$blue;
+			font-weight:bold;
+			width:220px;
+			display:inline-block;
+			vertical-align:middle;
+		}
+
+		a.forgot
+		{
+			color:$blue;
+			text-decoration:none;
+			font-size:0.8em;
+			float:left;
+
+			&:hover
+			{
+				text-decoration:underline;
+			}
+		}
+
+		.form-item-name
+		{
+			margin-bottom:15px;
+		}
+
+		#edit-submit
+		{
+			border:0;
+			background:none;
+			color:$orange;
+			cursor:pointer;
+			font-size:1em;
+			font-weight:bold;
+			float:right;
+			text-align:right;
+			padding:0;
+		}
+	}
+}
+
+fieldset.filter-wrapper,
+.grippie
+{
+	display:none!important;
+}
+
+form#comment-form
+{
+	#edit-author--2
+	{
+		display:none;
+	}
+
+	.form-item-comment-body-und-0-value label
+	{
+		position:absolute;
+		left:-99999px;
+	}
+
+	.form-actions
+	{
+		margin-top:10px;
+	}
+}

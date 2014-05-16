@@ -1,0 +1,21 @@
+name = Sarnia-Lambton Childrens Aid Society
+description = Sarnia-Lambton Children's Aid Society Custom
+core = 7.x
+
+scripts[] = js/menu.js
+scripts[] = js/slideshow.js
+scripts[] = js/menu-btn.js
+scripts[] = js/search.js
+scripts[] = js/programs.js
+scripts[] = js/gallery.js
+scripts[] = js/icons.js
+scripts[] = js/css3-multi-column.min.js
+
+
+stylesheets[all][] = stylesheets/screen.css
+
+regions[sidebar] = Sidebar
+regions[top] = Top
+regions[header] = Header
+regions[content] = Content
+regions[footer] = Footer

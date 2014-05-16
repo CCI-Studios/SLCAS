@@ -1,0 +1,27 @@
+body
+{
+	font-family:"ff-ernestine-web-pro",serif;
+	font-weight: 600;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+input, select, textarea, button
+{
+	font-family:inherit;
+	font-weight:inherit;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+#block-menu-menu-child-and-youth-menu .content,
+#block-menu-menu-child-and-youth-menu .youth-zone-menu-btn,
+body.node-type-child-and-youth-page #page-title,
+#block-webform-client-block-59,
+.view-preschool-links,
+.view-school-aged-links,
+#block-menu-menu-youth-zone-menu .content
+{
+	font-family:"cubano",sans-serif;
+	font-weight:400;
+}

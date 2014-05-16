@@ -1,0 +1,438 @@
+.front
+{
+	#page-title
+	{
+		position:absolute;
+		left:-99999px;
+	}
+
+	#block-system-main
+	{
+		background:$orange;
+		color:white;
+		font-size:1.3em;
+		padding:15px 30px;
+		line-height:130%;
+
+		.content
+		{
+			width:100%;
+			max-width:800px;
+			margin:0 auto;
+		}
+
+		a
+		{
+			color:white;
+			text-decoration:none;
+
+			&:hover
+			{
+				text-decoration:underline;
+			}
+		}
+
+		a.about-us
+		{
+			font-size:0.7em;
+		}
+	}
+}
+
+#section-icons
+{
+	text-align:center;
+	clear:both;
+	padding:20px 0;
+
+	a
+	{
+		display:inline-block;
+		vertical-align:top;
+		width:175px;
+		height:50px;
+		background-repeat:no-repeat;
+		background-position:center top;
+		color:$blue;
+		text-decoration:none;
+		padding-top:125px;
+		font-size:1.2em;
+		line-height:120%;
+
+		&:hover
+		{
+			color:$orange;
+		}
+
+		&:after
+		{
+			position:absolute;
+			left:-99999px;
+		}
+
+		&.foster-parenting
+		{
+			background-image:url(../images/icon-foster-parenting.png);
+
+			&:after,
+			&:hover
+			{
+				background-image:url(../images/icon-foster-parenting-hover.png);
+			}
+		}
+		&.volunteer
+		{
+			background-image:url(../images/icon-volunteer.png);
+
+			&:after,
+			&:hover
+			{
+				background-image:url(../images/icon-volunteer-hover.png);
+			}
+		}
+		&.programs
+		{
+			background-image:url(../images/icon-programs.png);
+
+			&:after,
+			&:hover
+			{
+				background-image:url(../images/icon-programs-hover.png);
+			}
+		}
+		&.resources
+		{
+			background-image:url(../images/icon-resources.png);
+
+			&:after,
+			&:hover
+			{
+				background-image:url(../images/icon-resources-hover.png);
+			}
+		}
+	}
+}
+
+#block-views-news-and-events-block
+{
+	color:white;
+	text-align:center;
+	padding:35px 0;
+	position:relative;
+
+	background:#003e78;
+	background:-moz-linear-gradient(top, #003e78 0%, #0053a0 100%);
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#003e78), color-stop(100%,#0053a0));
+	background:-webkit-linear-gradient(top, #003e78 0%,#0053a0 100%);
+	background:-o-linear-gradient(top, #003e78 0%,#0053a0 100%);
+	background:-ms-linear-gradient(top, #003e78 0%,#0053a0 100%);
+	background:linear-gradient(to bottom, #003e78 0%,#0053a0 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#003e78', endColorstr='#0053a0',GradientType=0 );
+
+	&:before
+	{
+		content:"";
+		display:block;
+		width:0px;
+		height:0px;
+		border-style:solid;
+		border-width:0 33px 28px 33px;
+		border-color:transparent transparent #003e78 transparent;
+		position:absolute;
+		top:-28px;
+		left:35px;
+	}
+	&:after
+	{
+		content:"";
+		display:block;
+		width:0px;
+		height:0px;
+		border-style:solid;
+		border-width:28px 33px 0 33px;
+		border-color:#00529f transparent transparent transparent;
+		position:absolute;
+		top:100%;
+		right:35px;
+		z-index:2;
+	}
+
+	.content:after
+	{
+		content:"";
+		position:absolute;
+		bottom:0;
+		right:-75px;
+		background:url(../images/bg-icon-news.png) no-repeat right bottom;
+		width:403px;
+		height:337px;
+	}
+
+	a
+	{
+		color:white;
+		text-decoration:none;
+
+		&:hover
+		{
+			text-decoration:underline;
+		}
+	}
+
+	& > h2
+	{
+		font-size:3em;
+		text-transform:uppercase;
+		line-height:75px;
+		padding-left:85px;
+		background:url(../images/icon-news.png) no-repeat left center;
+		display:inline-block;
+		text-shadow:-3px 3px 3px rgba(0,0,0,0.2);
+	}
+
+	.views-row
+	{
+		display:inline-block;
+		vertical-align:top;
+		position:relative;
+		width:340px;
+		margin:25px;
+		z-index:1;
+
+		.views-field
+		{
+			padding-left:60px;
+			font-weight:300;
+		}
+		.views-field-field-date
+		{
+			float:left;
+			width:45px;
+			padding:10px 0 10px 2px;
+			background:url(../images/date-bg.png) no-repeat left top;
+			line-height:100%;
+			font-weight:bold;
+		}
+		.views-field-title
+		{
+			font-weight:bold;
+			text-shadow:1px 1px 1px rgba(0,0,0,0.2);
+			text-align:left;
+			font-size:1.05em;
+		}
+		.views-field-body
+		{
+			font-size:0.85em;
+			line-height:110%;
+			text-align:left;
+		}
+		.views-field-path
+		{
+			text-align:left;
+			font-size:0.85em;
+			margin-top:12px;
+
+			& > div
+			{
+				padding-bottom:12px;
+				border-bottom:1px solid #6e86c0;
+			}
+		}
+	}
+
+	a.more-news
+	{
+		font-weight:300;
+		font-size:0.85em;
+	}
+}
+
+#block-views-highlight-block
+{
+	background:$orange;
+	position:relative;
+	color:white;
+	height:370px;
+
+	.content
+	{
+		height:370px;
+		width:100%;
+		max-width:990px;
+		margin:0 auto;
+		position:relative;
+
+		&:after
+		{
+			content:"";
+			position:absolute;
+			bottom:0;
+			left:0;
+			background:url(../images/bg-icon-highlight.png) no-repeat left bottom;
+			width:280px;
+			height:348px;
+			z-index:0;
+		}
+	}
+
+	a
+	{
+		color:white;
+		text-decoration:none;
+
+		&:hover
+		{
+			text-decoration:underline;
+		}
+	}
+
+	h2
+	{
+		font-size:3em;
+		text-transform:uppercase;
+		line-height:70px;
+		padding-left:85px;
+		background:url(../images/icon-highlight.png) no-repeat left center;
+		display:inline-block;
+		text-shadow:-3px 3px 3px rgba(0,0,0,0.2);
+	}
+
+	.view-highlight
+	{
+		position:relative;
+		z-index:1;
+	}
+
+	.views-field-title
+	{
+		padding:30px 0 20px 50px;
+	}
+	.views-field-body
+	{
+		padding-left:50px;
+		width:400px;
+		font-size:0.8em;
+		line-height:120%;
+
+		p
+		{
+			margin-bottom:0.75em;
+		}
+
+		&:after
+		{
+			content:"";
+			display:block;
+			width:0px;
+			height:0px;
+			border-style:solid;
+			border-width:185px 0 185px 92px;
+			border-color:transparent transparent transparent $orange;
+			position:absolute;
+			left:450px;
+			top:0;
+			z-index:1;
+		}
+	}
+	.views-field-field-image
+	{
+		position:absolute;
+		top:0;
+		left:450px;
+	}
+	.views-field-field-link
+	{
+		font-size:0.8em;
+		width:400px;
+		text-align:center;
+	}
+}
+
+#kids-zone-banner
+{
+	height:400px;
+	background:#00b4ff;
+	position:relative;
+
+	&:after
+	{
+		content:"";
+		display:block;
+		position:absolute;
+		top:100%;
+		right:35px;
+		z-index:2;
+		width:0px;
+		height:0px;
+		border-style:solid;
+		border-width:28px 33px 0 33px;
+		border-color:#16d41f transparent transparent transparent;
+
+	}
+
+	& > div
+	{
+		width:100%;
+		max-width:1000px;
+		height:100%;
+		margin:0 auto;
+		background:url(../images/banner-kids-zone.png) no-repeat left top;
+		position:relative;
+
+		&:before
+		{
+			content:"";
+			display:block;
+			height:89px;
+			position:absolute;
+			bottom:0;
+			right:100%;
+			width:9999px;
+			background:#17c71f;
+		}
+		&:after
+		{
+			content:"";
+			display:block;
+			height:74px;
+			position:absolute;
+			bottom:0;
+			left:100%;
+			width:9999px;
+			background:#16d41f;
+		}
+	}
+
+	h2
+	{
+		position:absolute;
+		left:-99999px;
+	}
+
+	a.tw
+	{
+		display:block;
+		position:absolute;
+		left:145px;
+		top:305px;
+		text-indent:-9999px;
+		overflow:hidden;
+		color:transparent;
+		width:60px;
+		height:62px;
+		background:url(../images/btn-tw.png) no-repeat left top;
+	}
+	a.go-explore
+	{
+		display:block;
+		position:absolute;
+		left:220px;
+		top:305px;
+		text-indent:-9999px;
+		overflow:hidden;
+		color:transparent;
+		width:219px;
+		height:62px;
+		background:url(../images/btn-go-explore.png) no-repeat left top;
+	}
+}
