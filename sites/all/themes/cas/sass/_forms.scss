@@ -1,6 +1,7 @@
 input[type=text],
 input[type=email],
 input[type=password],
+input[type=number],
 .webform-component-textfield input,
 textarea
 {
@@ -412,5 +413,78 @@ form#comment-form
 	.form-actions
 	{
 		margin-top:10px;
+	}
+}
+
+form#webform-client-form-74
+{
+	fieldset
+	{
+		padding-bottom:2px;
+		border:0;
+		min-height:1.1em;
+
+		fieldset
+		{
+			border-bottom:1px solid $blue;
+		}
+
+		legend
+		{
+		}
+	}
+
+	h2, h3, h4, h5, h6
+	{
+		margin-bottom:0;
+		margin-top:0.5em;
+	}
+
+	label
+	{
+		width:270px;
+		margin-right:15px;
+		float:left;
+		clear:left;
+	}
+
+	.form-item
+	{
+		padding:3px 0;
+		margin-bottom:10px;
+		clear:both;
+		overflow:hidden;
+	}
+
+	.form-actions
+	{
+		clear:both;
+		padding-left:285px;
+	}
+
+	.form-radios
+	{
+		padding-left:285px;
+
+		.form-item
+		{
+			clear: none;
+			float: left;
+			width: 135px;
+		}
+
+		label
+		{
+			margin-right:0;
+			margin-left: 5px;
+			clear: none;
+			width:110px;
+		}
+
+		input
+		{
+			float: left;
+			margin-left:1px;
+		}
 	}
 }
