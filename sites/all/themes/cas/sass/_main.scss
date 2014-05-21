@@ -506,6 +506,17 @@ html body.admin-menu
 		line-height:100%;
 		font-size:0.75em;
 		font-weight:bold;
+
+		a
+		{
+			color:$blue;
+			text-decoration:none;
+
+			&:hover
+			{
+				color:$orange;
+			}
+		}
 	}
 
 	#footer-search
