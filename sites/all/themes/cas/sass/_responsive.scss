@@ -474,6 +474,21 @@ screen and (height:768px) and (width:1024px)
     {
         display: none;
     }
+
+    form#webform-client-form-74
+    {
+        label
+        {
+            width:100%;
+            margin-right:0;
+            margin-left:0;
+        }
+
+        .form-radios
+        {
+            padding-left:0;
+        }
+    }
 }
 
 
@@ -818,10 +833,22 @@ screen and (height:768px) and (width:1024px)
         -moz-box-sizing:border-box;
     }
 
-    form#webform-client-form-34 .form-actions,
-    form#webform-client-form-35 .form-actions
+    form#webform-client-form-34,
+    form#webform-client-form-35,
+    form#webform-client-form-74
     {
-        padding-left:0;
+        .form-actions
+        {
+            padding-left:0;
+        }
+
+        & > div > .form-item > label,
+        & > div > fieldset > div > .form-item > label,
+        & > div > fieldset > div > fieldset > div > .form-item > label
+        {
+            width:100%;
+            margin-right:0;
+        }
     }
 }
 
