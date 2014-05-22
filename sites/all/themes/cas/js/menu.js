@@ -19,7 +19,7 @@
 	function fixMenu()
 	{
 		$("#block-system-main-menu .content ul div").each(function(){
-			var totalWidth = 0;
+			var totalWidth = 5;
 			$ul = $(this);
 			$ul.css({
 				"width":"1200px",

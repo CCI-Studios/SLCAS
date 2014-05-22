@@ -19,12 +19,10 @@
     {
         stop();
         var left = parseInt($("#block-views-child-and-youth-gallery-block .view-content").css("left"))/getWidth()*100;
-        console.log("current left:"+left);
         if (left < 0)
         {
             left += 100;
         }
-        console.log("new left:"+left);
         $("#block-views-child-and-youth-gallery-block .view-content").animate({
             "left":left+"%"
         });
@@ -35,12 +33,10 @@
     {
         stop();
         var left = parseInt($("#block-views-child-and-youth-gallery-block .view-content").css("left"))/getWidth()*100;
-        console.log("current left:"+left);
         if (left > ($("#block-views-child-and-youth-gallery-block .views-row").length-1)*-100)
         {
             left -= 100;
         }
-        console.log("new left:"+left);
         $("#block-views-child-and-youth-gallery-block .view-content").animate({
             "left":left+"%"
         });

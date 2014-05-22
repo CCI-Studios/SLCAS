@@ -52,6 +52,11 @@
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   <?php print $styles; ?>
   <?php print $scripts; ?>
+  <!--[if lt IE 10]>
+    <link rel="stylesheet" type="text/css" href="/sites/all/themes/cas/stylesheets/ie89.css" />
+    <script type="text/javascript" src="/sites/all/themes/cas/js/css3-multi-column.min.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" type="text/css" href="/sites/all/themes/cas/stylesheets/ie10.css" />
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
   <div id="skip-link">

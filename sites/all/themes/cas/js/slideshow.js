@@ -14,7 +14,6 @@
 				indicatorClick(i);
 			})
 			.on("keydown", function(e){
-				console.log("keydown");
 				if (e.keyCode == 13)
 				{
 					indicatorClick(i);

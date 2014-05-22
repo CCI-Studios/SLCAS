@@ -1,0 +1,33 @@
+#footer > div > div
+{
+    height:270px;
+}
+
+#footer a.donate
+{
+    top:165px;
+    left:415px;
+}
+
+#block-views-header-slideshow-block ul#indicators li
+{
+    background:#d1d1d1;
+    width:6px;
+    height:6px;
+}
+
+#block-views-header-slideshow-block ul#indicators li.active
+{
+    background:white;
+}
+
+#block-views-header-slideshow-block ul#indicators li:focus
+{
+    border:2px solid black;
+    margin:-2px;
+}
+
+body.node-type-child-and-youth-page #block-menu-menu-child-and-youth-menu>.content>div>ul>li a:hover
+{
+    text-decoration:underline!important;
+}

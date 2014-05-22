@@ -157,6 +157,7 @@ body.node-type-child-and-youth-page
 							background:url(../images/btn-tw.png) no-repeat right center;
 							text-indent:-99999px;
 							color:transparent;
+							font-size:0px;
 							padding-top:0;
 							padding-bottom:0;
 							height:62px;
@@ -267,6 +268,7 @@ body.node-type-child-and-youth-page
 	#page-title
 	{
 		background:none;
+		filter:none;
 		min-height:70px;
 
 		&:after
