@@ -916,3 +916,33 @@ screen and (height:768px) and (width:1024px)
         font-size:1em;
     }
 }
+
+
+
+@media screen and (max-height:675px)
+{
+    #logo
+    {
+        margin-bottom: 30px;
+        padding-bottom: 10px;
+
+        img
+        {
+            width: 170px;
+        }
+    }
+
+    #block-system-main-menu>.content>div>ul>li>a
+    {
+        padding-top:6px;
+        padding-bottom: 6px;
+    }
+
+    #block-block-1 img
+    {
+        width:200px!important;
+        height:auto!important;
+        margin:0 auto;
+        display: block;
+    }
+}
