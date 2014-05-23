@@ -281,6 +281,7 @@ html body.admin-menu
 	position:relative;
 	z-index:1;
 	padding:0 6px;
+	cursor:pointer;
 
 	&:before
 	{
@@ -327,6 +328,7 @@ html body.admin-menu
 		box-sizing:border-box;
 		-webkit-box-sizing:border-box;
 		-moz-box-sizing:border-box;
+		cursor:auto;
 	}
 }
 
@@ -566,6 +568,7 @@ html body.admin-menu
 		top:210px;
 		right:0;
 		width:196px;
+		cursor:pointer;
 
 		&:before
 		{
@@ -609,6 +612,7 @@ html body.admin-menu
 				box-sizing:border-box;
 				-webkit-box-sizing:border-box;
 				-moz-box-sizing:border-box;
+				cursor:auto;
 			}
 		}
 	}
