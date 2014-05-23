@@ -4,6 +4,8 @@
 			gotoProgram($(this).data("nid"));
 			return false;
 		});
+
+		$("#block-views-q-as-header-block a").click(click);
 	});
 
 	function gotoProgram(nid)
@@ -15,6 +17,12 @@
 		$("html, body").animate({
 			"scrollTop":top+"px"
 		});
+	}
+
+	function click()
+	{
+		$(document).scrollTop( $($(this).attr("href")).offset().top - 50 );
+		return false;
 	}
 
 }(jQuery));
