@@ -1539,3 +1539,26 @@ body.page-node-47 #content #page-title
 	}
 
 }
+
+#block-views-q-as-block
+{
+	.views-field-nothing
+	{
+		overflow: hidden;
+		padding-bottom: 20px;
+	}
+
+	a.back-to-top
+	{
+		color:$blue;
+		text-decoration:none;
+		display: block;
+		width:50px;
+		padding-top:35px;
+		font-size:0.9em;
+		text-align: center;
+		line-height: 100%;
+		float: right;
+		background: url(../images/back-to-top.png) no-repeat center top;
+	}
+}
