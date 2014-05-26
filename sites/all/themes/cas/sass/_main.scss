@@ -233,6 +233,25 @@ html body.admin-menu
 		top:29px;
 	}
 }
+html body.navbar-administration
+{
+	#top
+	{
+		top:39px;
+	}
+	#sidebar
+	{
+		padding-top:39px;
+	}
+
+	&.navbar-tray-open
+	{
+		#sidebar
+		{
+			left:240px;
+		}
+	}
+}
 
 #block-menu-menu-social-menu
 {

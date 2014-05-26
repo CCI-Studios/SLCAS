@@ -1,6 +1,12 @@
 <?php
 
-function cas_menu_tree($variables) {
+function cas_menu_tree__main_menu($variables) {
+  return '<div><ul class="menu">' . $variables['tree'] . '</ul></div>';
+}
+function cas_menu_tree__menu_child_and_youth_menu($variables) {
+  return '<div><ul class="menu">' . $variables['tree'] . '</ul></div>';
+}
+function cas_menu_tree__menu_staff_menu($variables) {
   return '<div><ul class="menu">' . $variables['tree'] . '</ul></div>';
 }
 
@@ -37,8 +43,6 @@ function cas_form_alter(&$form, $form_state, $form_id) {
 	}
 	else if ($form_id == 'webform_client_form_35' || $form_id == 'webform_client_form_34')
 	{
-		//print '<pre>';
-		//print_r($form);
 		$form['submitted']['first_name']['#attributes']['placeholder'] = 'First';
 		$form['submitted']['last_name']['#attributes']['placeholder'] = 'Last';
 		$form['submitted']['address_line_1']['#attributes']['placeholder'] = 'Address Line 1';
