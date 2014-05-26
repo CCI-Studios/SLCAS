@@ -90,7 +90,8 @@
         }
     }
 
-    form#webform-client-form-34
+    form#webform-client-form-34,
+    form#volunteer-application-form-entityform-edit-form
     {
         label
         {
@@ -123,7 +124,8 @@
         }
     }
 
-    form#webform-client-form-35
+    form#webform-client-form-35,
+    form#report-a-concern-entityform-edit-form
     {
         label
         {
@@ -475,18 +477,27 @@ screen and (height:768px) and (width:1024px)
         display: none;
     }
 
-    form#webform-client-form-74
+    form#webform-client-form-74,
+    form#foster-application-form-entityform-edit-form
     {
-        label
+        label,
+        .field-widget-date-select legend
         {
             width:100%;
             margin-right:0;
             margin-left:0;
         }
 
-        .form-radios
+        .form-radios,
+        .form-checkboxes,
+        .form-actions
         {
             padding-left:0;
+        }
+
+        .form-checkboxes
+        {
+            overflow: visible;
         }
     }
 }

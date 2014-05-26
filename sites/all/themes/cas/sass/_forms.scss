@@ -61,7 +61,8 @@ form
 	}
 }
 
-form#webform-client-form-34
+form#webform-client-form-34,
+form#volunteer-application-form-entityform-edit-form
 {
 	max-width:729px;
 
@@ -162,7 +163,8 @@ form#webform-client-form-34
 
 
 
-	#webform-component-first_name
+	#webform-component-first_name,
+	.field-name-field-first-name .form-item
 	{
 		overflow:visible;
 		padding:0;
@@ -174,7 +176,8 @@ form#webform-client-form-34
 			margin-right:30px;
 		}
 	}
-	#webform-component-last_name
+	#webform-component-last_name,
+	.field-name-field-last-name .form-item
 	{
 		clear:none;
 		float:left;
@@ -187,7 +190,8 @@ form#webform-client-form-34
 	}
 
 	#webform-component-address_line_1,
-	#webform-component-address_line_2
+	#webform-component-address_line_2,
+	.field-name-field-address-apt-unit-no
 	{
 		input
 		{
@@ -195,7 +199,8 @@ form#webform-client-form-34
 		}
 	}
 
-	#webform-component-please_review_to_ensure_your_information_is_correct
+	#webform-component-please_review_to_ensure_your_information_is_correct,
+	.field-name-field-please-review-to-ensure-yo
 	{
 		.form-checkboxes
 		{
@@ -206,7 +211,15 @@ form#webform-client-form-34
 
 			label
 			{
-				display:none;
+				font-size:0;
+				color:transparent;
+				width:0;
+			}
+
+			.form-item
+			{
+				width:26px;
+				padding-right: 0;
 			}
 		}
 	}
@@ -218,7 +231,8 @@ form#webform-client-form-34
 	}
 }
 
-form#webform-client-form-35
+form#webform-client-form-35,
+form#report-a-concern-entityform-edit-form
 {
 	max-width:729px;
 
@@ -252,7 +266,9 @@ form#webform-client-form-35
 	}
 
 	#webform-component-first_name,
-	#webform-component-your_first_name
+	#webform-component-your_first_name,
+	.field-name-field-name .form-item,
+	.field-name-field-first-name .form-item
 	{
 		overflow:visible;
 		padding:0;
@@ -265,7 +281,9 @@ form#webform-client-form-35
 		}
 	}
 	#webform-component-last_name,
-	#webform-component-your_last_name
+	#webform-component-your_last_name,
+	.field-name-field-last-name .form-item,
+	.field-name-field-last-name-2 .form-item
 	{
 		clear:none;
 		float:left;
@@ -280,7 +298,9 @@ form#webform-client-form-35
 	#webform-component-address_line_1,
 	#webform-component-address_line_2,
 	#webform-component-your_address_line_1,
-	#webform-component-your_address_line_2
+	#webform-component-your_address_line_2,
+	.field-name-field-address-apt-unit-no,
+	.field-name-field-address-2
 	{
 		input
 		{
@@ -416,18 +436,14 @@ form#comment-form
 	}
 }
 
-form#webform-client-form-74
+form#webform-client-form-74,
+form#foster-application-form-entityform-edit-form
 {
 	fieldset
 	{
 		padding-bottom:2px;
 		border:0;
 		min-height:1.1em;
-
-		fieldset
-		{
-			border-bottom:1px solid $blue;
-		}
 
 		legend
 		{
@@ -454,6 +470,99 @@ form#webform-client-form-74
 		margin-bottom:10px;
 		clear:both;
 		overflow:hidden;
+	}
+
+	.field-widget-date-select
+	{
+		fieldset
+		{
+			clear: none;
+			padding: 0;
+			margin-bottom: 0;
+		}
+
+		.date-no-float
+		{
+			clear: none;
+			width: auto;
+		}
+
+		.form-item
+		{
+			clear: none;
+			padding: 0;
+			margin-right: 0;
+		}
+
+		label
+		{
+			width: auto;
+		}
+
+		legend
+		{
+			float: left;
+			width:270px;
+			margin-right: 15px;
+		}
+
+		.date-padding
+		{
+			padding: 0;
+		}
+	}
+
+	.field-widget-multifield-default
+	{
+		.tabledrag-toggle-weight-wrapper
+		{
+			display: none;
+		}
+
+		.field-multiple-drag
+		{
+			display: none;
+		}
+
+		table
+		{
+			width:100%;
+			border-spacing:0;
+
+			th label
+			{
+				width: auto;
+				margin-right: 0;
+				font-weight:bold;
+				@extend h3;
+			}
+
+			td
+			{
+				padding-bottom:0.5em;
+				border-bottom:1px solid $blue;
+			}
+		}
+
+		& > div > .form-item
+		{
+			border-bottom:1px solid $blue;
+			padding-bottom: 8px;
+		}
+
+		& > div > fieldset > legend
+		{
+			font-weight:bold;
+			@extend h3;
+		}
+	}
+
+	.field-type-children
+	{
+		table th label
+		{
+			font-size:1.17em;
+		}
 	}
 
 	.form-actions
@@ -485,6 +594,69 @@ form#webform-client-form-74
 		{
 			float: left;
 			margin-left:1px;
+		}
+	}
+
+	.form-checkboxes
+	{
+		overflow:hidden;
+		margin-bottom:10px;
+
+		.form-item
+		{
+			float:left;
+			width:142px;
+			clear:none;
+			padding-right:32px;
+			margin-right:45px;
+			position: relative;
+			min-height:26px;
+			overflow: visible;
+
+			input
+			{
+				float:right;
+				margin-right:-20px;
+			}
+
+			&:not(#foo)
+			{
+				input
+				{
+					opacity:0;
+				}
+
+				input + label:after
+				{
+					content:"";
+					display: block;
+					width: 26px;
+					height: 26px;
+					background: url(../images/checkbox.png) no-repeat left center;
+					position: absolute;
+					top: 0;
+					right: 0;
+				}
+
+				input:checked + label:after
+				{
+					background-position:-26px center;
+				}
+
+				input:focus + label:after
+				{
+					box-shadow:0 0 5px $blue;
+				}
+			}
+
+			label
+			{
+				width:auto;
+				float:none;
+				clear:none;
+				margin-right:0;
+				padding-right:30px;
+			}
 		}
 	}
 }

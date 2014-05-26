@@ -49,6 +49,13 @@ function cas_form_alter(&$form, $form_state, $form_id) {
 		$form['submitted']['your_address_line_1']['#attributes']['placeholder'] = 'Address Line 1';
 		$form['submitted']['your_address_line_2']['#attributes']['placeholder'] = 'Address Line 2';
 	}
+    else if ($form_id == 'report_a_concern_entityform_edit_form')
+    {
+        $form['field_name']['und']['0']['value']['#attributes']['placeholder'] = 'First';
+        $form['field_last_name']['und']['0']['value']['#attributes']['placeholder'] = 'Last';
+        $form['field_first_name']['und']['0']['value']['#attributes']['placeholder'] = 'First';
+        $form['field_last_name_2']['und']['0']['value']['#attributes']['placeholder'] = 'Last';
+    }
 }
 
 function cas_preprocess_page(&$vars) {

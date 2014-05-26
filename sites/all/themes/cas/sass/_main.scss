@@ -1391,9 +1391,11 @@ body.node-type-foster-parent-and-volunteer-page
 	}
 }
 
-#block-webform-client-block-59
+form#block-webform-client-block-59,
+form#child-and-youth-contact-us-entityform-edit-form
 {
-	#webform-component-left
+	#webform-component-left,
+	#entityform_child_and_youth_contact_us_form_group_left
 	{
 		float: left;
 		width: 50%;
@@ -1418,7 +1420,8 @@ body.node-type-foster-parent-and-volunteer-page
 		}
 	}
 
-	#webform-component-message
+	#webform-component-message,
+	#edit-field-message
 	{
 		float:left;
 		width: 50%;
