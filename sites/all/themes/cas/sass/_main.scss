@@ -393,7 +393,7 @@ html body.navbar-administration
 		}
 	}
 
-	#block-menu-block-1
+	#block-menu-menu-footer-menu
 	{
 		&:before
 		{
@@ -427,7 +427,7 @@ html body.navbar-administration
 			}
 		}
 
-		.menu-name-main-menu > div > ul
+		& > div > ul
 		{
 			list-style:none;
 			line-height:100%;
@@ -455,7 +455,7 @@ html body.navbar-administration
 					display:block;
 				}
 
-				& > div > ul
+				& > ul
 				{
 					list-style:none;
 					margin-top:5px;
@@ -464,6 +464,7 @@ html body.navbar-administration
 					& > li
 					{
 						margin:2px 0;
+						list-style:none;
 
 						& > a
 						{
@@ -474,7 +475,7 @@ html body.navbar-administration
 				}
 			}
 		}
-		.menu-name-main-menu > div > div > ul
+		& > div > div > ul
 		{
 			list-style:none;
 			line-height:90%;
@@ -500,7 +501,7 @@ html body.navbar-administration
 					display:block;
 				}
 
-				& > div > ul
+				& > ul
 				{
 					list-style:none;
 					margin-top:5px;
@@ -535,7 +536,7 @@ html body.navbar-administration
 		border-radius:7px;
 		position:absolute;
 		left:410px;
-		top:155px;
+		top:200px;
 		text-decoration:none;
 	}
 
