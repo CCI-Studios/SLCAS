@@ -359,11 +359,22 @@ screen and (height:768px) and (width:1024px)
             display: block;
         }
 
-        #block-block-1 img
+        #block-block-1
         {
-            max-width:220px;
-            display: block;
-            margin: -5px auto 0 auto;
+            img
+            {
+                max-width:220px;
+                display: block;
+                margin: -5px auto 0 auto;
+            }
+
+            &:after
+            {
+                content:"";
+                display: block;
+                border-bottom:3px solid white;
+                margin-top:-5px;
+            }
         }
 
         .region-sidebar
