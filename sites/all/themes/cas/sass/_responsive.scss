@@ -215,19 +215,24 @@
             height:auto!important;
         }
 
-        #block-system-main-menu > .content>div>ul>li>a
+        #block-system-main-menu > .content>div>ul
         {
             margin-left:15px;
             margin-right:15px;
-        }
 
-        #block-system-main-menu > .content>div>ul>li>div
-        {
-            left:15px;
-        }
-        #block-system-main-menu > .content>div>ul>li>div>ul>li.first
-        {
-            padding-left:190px;
+            li.expanded
+            {
+                & > a
+                {
+                    padding-right:15px;
+                    background-position:99% center;
+                }
+                & > div
+                {
+                    margin-left:15px;
+                }
+            }
+
         }
     }
 
@@ -321,7 +326,7 @@
 
         &.first
         {
-            padding-left:160px;
+            padding-left:10px;
         }
     }
 }
@@ -382,11 +387,11 @@ screen and (height:768px) and (width:1024px)
             {
                 &:hover > a
                 {
-                    border-bottom:1px solid white;
                     background: $orange;
                 }
 
-                & > a
+                & > a,
+                &.expanded > a
                 {
                     padding:16px 0;
                 }

@@ -1,14 +1,6 @@
 (function($) {
 	$(function(){
-		$("#block-system-main-menu .content > div > ul > li").hover(
-			function(){
-				$(this).find("div").stop(true,true).animate({"width":"toggle"});
-			},
-			function(){
-				$(this).find("div").stop(true,true).animate({"width":"toggle"}, 200);
-			}
-		)
-		.find("div").hide();
+		$("#block-system-main-menu li.expanded > a").click(menuClick);
 	});
 
 	$(window).load(function(){
@@ -16,11 +8,31 @@
 		$(window).resize(fixMenu);
 	});
 
+	function menuClick()
+	{
+		if (isMobile()) return;
+
+		var $li = $(this).parent();
+
+		//close other submenus first
+		$("#block-system-main-menu li.expanded.open").not($li).removeClass("open").find("> div").animate({"width":"toggle"});
+
+		//toggle open for the clicked menu
+		$li.toggleClass("open").find("> div").animate({"width":"toggle"});
+		return false;
+	}
+
+	function isMobile()
+	{
+		return $(window).width() <= 805 || ($(window).width() == 1024 && $(window).height() == 768);
+	}
+
 	function fixMenu()
 	{
 		$("#block-system-main-menu .content ul div").each(function(){
 			var totalWidth = 5;
 			$ul = $(this);
+			var originalDisplay = $ul.css("display");
 			$ul.css({
 				"width":"1200px",
 				"display":"block"
@@ -32,7 +44,7 @@
 			});
 
 			$ul.addClass("layout-fixed").css({
-				"display":"",
+				"display":originalDisplay,
 				"width":totalWidth+"px"
 			});
 			$ul.find("ul").width(totalWidth);
