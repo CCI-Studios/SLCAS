@@ -516,6 +516,11 @@ screen and (height:768px) and (width:1024px)
             overflow: visible;
         }
     }
+
+    #page-title:after
+    {
+        display: none;
+    }
 }
 
 
@@ -602,11 +607,6 @@ screen and (height:768px) and (width:1024px)
                 }
             }
         }
-    }
-
-    #page-title:after
-    {
-        display: none;
     }
 
     body.page-user,
