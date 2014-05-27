@@ -24,7 +24,7 @@
 
 	function isMobile()
 	{
-		return $(window).width() <= 805 || ($(window).width() == 1024 && $(window).height() == 768);
+		return $(window).width() <= 805 || ($(window).width() == 1024 && $(window).height() <= 768);
 	}
 
 	function fixMenu()
@@ -49,5 +49,10 @@
 			});
 			$ul.find("ul").width(totalWidth);
 		});
+
+		if (!isMobile())
+		{
+			$("#block-system-main-menu").show();
+		}
 	}
 }(jQuery));

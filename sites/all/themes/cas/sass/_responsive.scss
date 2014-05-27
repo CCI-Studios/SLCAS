@@ -336,7 +336,7 @@
 
 
 @media screen and (max-width:805px),
-screen and (height:768px) and (width:1024px)
+screen and (max-device-width:1024px) and (min-device-width:768px) and (orientation:landscape)
 {
     #sidebar
     {
@@ -986,15 +986,5 @@ screen and (height:768px) and (width:1024px)
         height:auto!important;
         margin:0 auto;
         display: block;
-    }
-}
-
-
-
-@media screen and (min-width:806px)
-{
-    #block-system-main-menu
-    {
-        display:block!important;
     }
 }
