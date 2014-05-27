@@ -144,6 +144,32 @@ form#volunteer-application-form-entityform-edit-form
 			}
 		}
 
+		.form-radios
+		{
+			padding-left:285px;
+
+			.form-item
+			{
+				clear: none;
+				float: left;
+				width: 135px;
+			}
+
+			label
+			{
+				margin-right:0;
+				margin-left: 5px;
+				clear: none;
+				width:110px;
+			}
+
+			input
+			{
+				float: left;
+				margin-left:1px;
+			}
+		}
+
 		&#webform-component-during_what_time_of_day_would_you_like_to_volunteer
 		{
 			.form-checkboxes .form-item
