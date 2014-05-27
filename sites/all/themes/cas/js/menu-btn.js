@@ -14,7 +14,7 @@
         .click(memberMenuClick)
         .prependTo("#block-menu-menu-staff-menu, #block-menu-menu-board-member-menu, #block-menu-menu-foster-parent-and-volunteer");
 
-        $("<a href='#' class='youth-zone-menu-btn'>Youth Zone Menu</a>")
+        $("<a href='#' class='youth-zone-menu-btn'>Main Menu</a>")
         .click(youthZoneMenuClick)
         .prependTo("#block-menu-menu-child-and-youth-menu");
     });
