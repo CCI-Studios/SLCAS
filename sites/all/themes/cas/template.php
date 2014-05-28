@@ -9,6 +9,12 @@ function cas_menu_tree__menu_child_and_youth_menu($variables) {
 function cas_menu_tree__menu_staff_menu($variables) {
   return '<div><ul class="menu">' . $variables['tree'] . '</ul></div>';
 }
+function cas_menu_tree__menu_board_member_menu($variables) {
+  return '<div><ul class="menu">' . $variables['tree'] . '</ul></div>';
+}
+function cas_menu_tree__menu_foster_parent_and_volunteer($variables) {
+  return '<div><ul class="menu">' . $variables['tree'] . '</ul></div>';
+}
 
 function cas_css_alter(&$css) {
 	$exclude = array(
