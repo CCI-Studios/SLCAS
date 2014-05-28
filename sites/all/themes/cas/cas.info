@@ -9,6 +9,8 @@ scripts[] = js/search.js
 scripts[] = js/programs.js
 scripts[] = js/gallery.js
 scripts[] = js/icons.js
+scripts[] = js/jquery.maskedinput.min.js
+scripts[] = js/phone-mask.js
 
 
 stylesheets[all][] = stylesheets/screen.css
