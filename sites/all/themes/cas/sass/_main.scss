@@ -1622,3 +1622,12 @@ iframe.iframecalendar
 {
 	width:100%;
 }
+
+.field-type-file
+{
+	th:last-child,
+	td:last-child
+	{
+		display: none;
+	}
+}
