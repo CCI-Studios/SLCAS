@@ -934,6 +934,11 @@ screen and (max-device-width:1024px) and (min-device-width:768px) and (orientati
         margin:0;
         width:auto;
     }
+
+    #block-views-news-and-events-block .views-row
+    {
+        width: auto;
+    }
 }
 
 
