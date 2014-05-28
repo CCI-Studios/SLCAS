@@ -336,7 +336,8 @@
 
 
 @media screen and (max-width:805px),
-screen and (max-device-width:1024px) and (min-device-width:768px) and (orientation:landscape)
+screen and (max-device-width:1024px) and (min-device-width:768px) and (orientation:landscape),
+screen and (max-height:580px)
 {
     #sidebar
     {

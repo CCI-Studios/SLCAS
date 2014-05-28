@@ -24,7 +24,7 @@
 
 	function isMobile()
 	{
-		return $(window).width() <= 805 || ($(window).width() == 1024 && $(window).height() <= 768);
+		return $(window).width() <= 805 || ($(window).width() == 1024 && $(window).height() <= 768) || $(window).height() <= 580;
 	}
 
 	function fixMenu()
