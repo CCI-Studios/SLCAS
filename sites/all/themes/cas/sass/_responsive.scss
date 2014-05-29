@@ -981,6 +981,13 @@ screen and (max-height:580px)
             margin-left:0;
         }
     }
+
+    iframe.iframecalendar
+    {
+        min-width: 100%;
+        width: 100px;
+        *width: 100%;
+    }
 }
 
 
