@@ -350,11 +350,22 @@
 	}
 }
 
+#block-block-3
+{
+	background:#00b4ff;
+
+	& > .content
+	{
+		width:100%;
+		max-width:1000px;
+		position:relative;
+		margin:0 auto;
+	}
+}
 #kids-zone-banner
 {
-	height:400px;
-	background:#00b4ff;
-	position:relative;
+	padding-top:40%;
+	position: relative;
 
 	&:after
 	{
@@ -369,17 +380,17 @@
 		border-style:solid;
 		border-width:28px 33px 0 33px;
 		border-color:#16d41f transparent transparent transparent;
-
 	}
 
 	& > div
 	{
 		width:100%;
-		max-width:1000px;
 		height:100%;
-		margin:0 auto;
+		position:absolute;
+		top:0;
+		left:0;
 		background:url(../images/banner-kids-zone.png) no-repeat left top;
-		position:relative;
+		background-size:contain;
 
 		&:before
 		{
@@ -415,8 +426,8 @@
 	{
 		display:block;
 		position:absolute;
-		left:145px;
-		top:305px;
+		left:12%;
+		top:75%;
 		text-indent:-9999px;
 		overflow:hidden;
 		color:transparent;
@@ -428,9 +439,11 @@
 	{
 		display:block;
 		position:absolute;
-		left:220px;
-		top:305px;
+		left:12%;
+		top:75%;
+		margin-left:75px;
 		text-indent:-9999px;
+		font-size:0;
 		overflow:hidden;
 		color:transparent;
 		width:219px;
