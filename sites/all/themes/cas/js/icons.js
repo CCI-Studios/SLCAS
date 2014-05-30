@@ -31,6 +31,12 @@
         case "Login":
             icon = "login";
             break;
+        case "Resources":
+            icon = "resources";
+            break;
+        case "Foster":
+            icon = "foster";
+            break;
         }
 
         if (icon)
