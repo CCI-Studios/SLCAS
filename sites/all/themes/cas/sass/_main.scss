@@ -255,11 +255,11 @@ html body.admin-menu
 		top:29px;
 	}
 }
-html body.navbar-administration
+html body.navbar-administration.navbar-vertical
 {
 	#top
 	{
-		top:39px;
+		top:40px;
 	}
 	#sidebar
 	{
@@ -271,6 +271,25 @@ html body.navbar-administration
 		#sidebar
 		{
 			left:240px;
+		}
+	}
+}
+html body.navbar-administration.navbar-horizontal
+{
+	#top
+	{
+		top:40px;
+	}
+	#sidebar
+	{
+		padding-top:39px;
+	}
+
+	&.navbar-tray-open
+	{
+		#top
+		{
+			top:80px;
 		}
 	}
 }
