@@ -88,7 +88,7 @@ function cas_preprocess_page(&$vars) {
     }
 }
 
-function cas_webform_element($variables) {
+function cas_form_element($variables) {
 	$element = $variables['element'];
 	$field_name = $element['#webform_component']['form_key'];
 	$value = $variables['element']['#children'];
