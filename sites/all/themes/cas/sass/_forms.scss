@@ -172,15 +172,6 @@ form#volunteer-application-form-entityform-edit-form
 		}
 	}
 
-	#webform-component-during_what_time_of_day_would_you_like_to_volunteer
-	{
-		.form-checkboxes .form-item
-		{
-			width:90px;
-			margin-right:38px;
-		}
-	}
-
 	.description
 	{
 		float:left;
@@ -188,9 +179,6 @@ form#volunteer-application-form-entityform-edit-form
 		width:270px;
 	}
 
-
-
-	#webform-component-first_name,
 	.field-name-field-first-name .form-item
 	{
 		overflow:visible;
@@ -203,7 +191,6 @@ form#volunteer-application-form-entityform-edit-form
 			margin-right:30px;
 		}
 	}
-	#webform-component-last_name,
 	.field-name-field-last-name .form-item
 	{
 		clear:none;
@@ -216,8 +203,6 @@ form#volunteer-application-form-entityform-edit-form
 		}
 	}
 
-	#webform-component-address_line_1,
-	#webform-component-address_line_2,
 	.field-name-field-address-apt-unit-no
 	{
 		input
@@ -226,7 +211,6 @@ form#volunteer-application-form-entityform-edit-form
 		}
 	}
 
-	#webform-component-please_review_to_ensure_your_information_is_correct,
 	.field-name-field-please-review-to-ensure-yo
 	{
 		.form-checkboxes
@@ -268,7 +252,6 @@ form#volunteer-application-form-entityform-edit-form
 	}
 }
 
-form#webform-client-form-35,
 form#report-a-concern-entityform-edit-form
 {
 	max-width:729px;
@@ -302,8 +285,6 @@ form#report-a-concern-entityform-edit-form
 		padding-left:285px;
 	}
 
-	#webform-component-first_name,
-	#webform-component-your_first_name,
 	.field-name-field-name .form-item,
 	.field-name-field-first-name .form-item
 	{
@@ -317,8 +298,6 @@ form#report-a-concern-entityform-edit-form
 			margin-right:30px;
 		}
 	}
-	#webform-component-last_name,
-	#webform-component-your_last_name,
 	.field-name-field-last-name .form-item,
 	.field-name-field-last-name-2 .form-item
 	{
@@ -332,57 +311,12 @@ form#report-a-concern-entityform-edit-form
 		}
 	}
 
-	#webform-component-address_line_1,
-	#webform-component-address_line_2,
-	#webform-component-your_address_line_1,
-	#webform-component-your_address_line_2,
 	.field-name-field-address-apt-unit-no,
 	.field-name-field-address-2
 	{
 		input
 		{
 			width:422px;
-		}
-	}
-
-	#webform-component-phone_number
-	{
-		overflow:visible;
-		padding:0;
-		margin:0;
-
-		input
-		{
-			float:left;
-			margin-right:20px;
-		}
-	}
-	#webform-component-first_nations
-	{
-		clear:none;
-		padding:0;
-		margin-bottom:20px;
-
-		label
-		{
-			width:auto;
-			clear:none;
-			margin-right:8px;
-		}
-
-		.description
-		{
-			color:$blue;
-			font-size:0.8em;
-			padding-top:4px;
-			width:217px;
-			line-height:100%;
-			width:auto;
-		}
-
-		select
-		{
-			position:absolute;
 		}
 	}
 }
@@ -473,7 +407,6 @@ form#comment-form
 	}
 }
 
-form#webform-client-form-74,
 form#foster-application-form-entityform-edit-form
 {
 	fieldset

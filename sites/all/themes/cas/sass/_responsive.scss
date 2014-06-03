@@ -90,7 +90,6 @@
         }
     }
 
-    form#webform-client-form-34,
     form#volunteer-application-form-entityform-edit-form
     {
         label
@@ -117,18 +116,6 @@
             padding-left: 0;
         }
 
-        #webform-component-please_review_to_ensure_your_information_is_correct .form-checkboxes label
-        {
-            display: block;
-            color:transparent;
-            text-indent:-99999px;
-        }
-        #webform-component-please_review_to_ensure_your_information_is_correct:not(#foo) .form-checkboxes input + label:after
-        {
-            left:0;
-            right:auto;
-        }
-
         #edit-field-please-review-to-ensure-yo .form-item
         {
             width: 230px;
@@ -145,7 +132,6 @@
         }
     }
 
-    form#webform-client-form-35,
     form#report-a-concern-entityform-edit-form
     {
         label
@@ -160,24 +146,6 @@
         {
             width: auto;
             float: none;
-        }
-
-        #webform-component-phone_number
-        {
-            margin-bottom:10px;
-            padding:3px 0;
-
-            input
-            {
-                float:none;
-            }
-        }
-
-        #webform-component-first_nations
-        {
-            clear:left;
-            margin-bottom: 10px;
-            padding: 3px 0;
         }
 
         .form-actions
@@ -525,7 +493,6 @@ screen and (max-height:580px)
         display: none;
     }
 
-    form#webform-client-form-74,
     form#foster-application-form-entityform-edit-form
     {
         label,
@@ -894,24 +861,6 @@ screen and (max-height:580px)
         box-sizing:border-box;
         -webkit-box-sizing:border-box;
         -moz-box-sizing:border-box;
-    }
-
-    form#webform-client-form-34,
-    form#webform-client-form-35,
-    form#webform-client-form-74
-    {
-        .form-actions
-        {
-            padding-left:0;
-        }
-
-        & > div > .form-item > label,
-        & > div > fieldset > div > .form-item > label,
-        & > div > fieldset > div > fieldset > div > .form-item > label
-        {
-            width:100%;
-            margin-right:0;
-        }
     }
 
     #edit-field-please-review-to-ensure-yo
