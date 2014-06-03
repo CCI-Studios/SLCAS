@@ -98,17 +98,23 @@
             width:100%;
             margin-right:0;
             clear:left;
+            float: none;
+            display: block;
         }
 
         .description
         {
             width:auto;
+            float: none;
         }
 
-        .form-item .form-checkboxes
+        .form-checkboxes,
+        .form-radios,
+        .field-widget-options-onoff
         {
             overflow: visible;
             clear: left;
+            padding-left: 0;
         }
 
         #webform-component-please_review_to_ensure_your_information_is_correct .form-checkboxes label
@@ -122,6 +128,21 @@
             left:0;
             right:auto;
         }
+
+        #edit-field-please-review-to-ensure-yo .form-item
+        {
+            width: 230px;
+
+            label
+            {
+                width: 200px;
+            }
+        }
+
+        .form-actions
+        {
+            padding-left: 0;
+        }
     }
 
     form#webform-client-form-35,
@@ -131,11 +152,14 @@
         {
             width:100%;
             margin-right: 0;
+            float: none;
+            display: block;
         }
 
         .description
         {
             width: auto;
+            float: none;
         }
 
         #webform-component-phone_number
@@ -154,6 +178,11 @@
             clear:left;
             margin-bottom: 10px;
             padding: 3px 0;
+        }
+
+        .form-actions
+        {
+            padding-left: 0;
         }
     }
 }
@@ -882,6 +911,19 @@ screen and (max-height:580px)
         {
             width:100%;
             margin-right:0;
+        }
+    }
+
+    #edit-field-please-review-to-ensure-yo
+    {
+        .form-item
+        {
+            width:100%;
+
+            label
+            {
+                width:100%;
+            }
         }
     }
 }
