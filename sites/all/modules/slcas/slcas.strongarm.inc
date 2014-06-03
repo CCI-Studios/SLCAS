@@ -69,6 +69,13 @@ function slcas_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'comment_anonymous_programs_and_services';
+  $strongarm->value = 0;
+  $export['comment_anonymous_programs_and_services'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'comment_anonymous_q_a';
   $strongarm->value = 0;
   $export['comment_anonymous_q_a'] = $strongarm;
@@ -160,6 +167,13 @@ function slcas_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'comment_default_mode_programs_and_services';
+  $strongarm->value = 1;
+  $export['comment_default_mode_programs_and_services'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'comment_default_mode_q_a';
   $strongarm->value = 1;
   $export['comment_default_mode_q_a'] = $strongarm;
@@ -230,6 +244,13 @@ function slcas_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'comment_default_per_page_programs_and_services';
+  $strongarm->value = '50';
+  $export['comment_default_per_page_programs_and_services'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'comment_default_per_page_q_a';
   $strongarm->value = '50';
   $export['comment_default_per_page_q_a'] = $strongarm;
@@ -296,6 +317,13 @@ function slcas_strongarm() {
   $strongarm->name = 'comment_form_location_prechool_link';
   $strongarm->value = 1;
   $export['comment_form_location_prechool_link'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'comment_form_location_programs_and_services';
+  $strongarm->value = 1;
+  $export['comment_form_location_programs_and_services'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -405,6 +433,13 @@ function slcas_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'comment_preview_programs_and_services';
+  $strongarm->value = '1';
+  $export['comment_preview_programs_and_services'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'comment_preview_q_a';
   $strongarm->value = '1';
   $export['comment_preview_q_a'] = $strongarm;
@@ -422,6 +457,13 @@ function slcas_strongarm() {
   $strongarm->name = 'comment_preview_staff_page';
   $strongarm->value = '0';
   $export['comment_preview_staff_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'comment_programs_and_services';
+  $strongarm->value = '0';
+  $export['comment_programs_and_services'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -492,6 +534,13 @@ function slcas_strongarm() {
   $strongarm->name = 'comment_subject_field_prechool_link';
   $strongarm->value = 1;
   $export['comment_subject_field_prechool_link'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'comment_subject_field_programs_and_services';
+  $strongarm->value = 1;
+  $export['comment_subject_field_programs_and_services'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */

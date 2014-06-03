@@ -59,6 +59,9 @@ function slcas_user_default_permissions() {
     'name' => 'access content overview',
     'roles' => array(
       'administrator' => 'administrator',
+      'board member admin' => 'board member admin',
+      'foster parent and volunteer admin' => 'foster parent and volunteer admin',
+      'staff admin' => 'staff admin',
       'super administrator' => 'super administrator',
     ),
     'module' => 'node',
@@ -78,6 +81,9 @@ function slcas_user_default_permissions() {
   $permissions['access navbar'] = array(
     'name' => 'access navbar',
     'roles' => array(
+      'board member admin' => 'board member admin',
+      'foster parent and volunteer admin' => 'foster parent and volunteer admin',
+      'staff admin' => 'staff admin',
       'super administrator' => 'super administrator',
     ),
     'module' => 'navbar',
@@ -249,6 +255,15 @@ function slcas_user_default_permissions() {
     'module' => 'features',
   );
 
+  // Exported permission: 'administer features menu items'.
+  $permissions['administer features menu items'] = array(
+    'name' => 'administer features menu items',
+    'roles' => array(
+      'super administrator' => 'super administrator',
+    ),
+    'module' => 'menu_admin_per_menu',
+  );
+
   // Exported permission: 'administer fieldgroups'.
   $permissions['administer fieldgroups'] = array(
     'name' => 'administer fieldgroups',
@@ -303,6 +318,24 @@ function slcas_user_default_permissions() {
     'module' => 'imce',
   );
 
+  // Exported permission: 'administer main-menu menu items'.
+  $permissions['administer main-menu menu items'] = array(
+    'name' => 'administer main-menu menu items',
+    'roles' => array(
+      'super administrator' => 'super administrator',
+    ),
+    'module' => 'menu_admin_per_menu',
+  );
+
+  // Exported permission: 'administer management menu items'.
+  $permissions['administer management menu items'] = array(
+    'name' => 'administer management menu items',
+    'roles' => array(
+      'super administrator' => 'super administrator',
+    ),
+    'module' => 'menu_admin_per_menu',
+  );
+
   // Exported permission: 'administer menu'.
   $permissions['administer menu'] = array(
     'name' => 'administer menu',
@@ -323,6 +356,90 @@ function slcas_user_default_permissions() {
     'module' => 'menu_attributes',
   );
 
+  // Exported permission: 'administer menu-anonymous-users-menu menu items'.
+  $permissions['administer menu-anonymous-users-menu menu items'] = array(
+    'name' => 'administer menu-anonymous-users-menu menu items',
+    'roles' => array(
+      'super administrator' => 'super administrator',
+    ),
+    'module' => 'menu_admin_per_menu',
+  );
+
+  // Exported permission: 'administer menu-board-member-menu menu items'.
+  $permissions['administer menu-board-member-menu menu items'] = array(
+    'name' => 'administer menu-board-member-menu menu items',
+    'roles' => array(
+      'board member admin' => 'board member admin',
+      'super administrator' => 'super administrator',
+    ),
+    'module' => 'menu_admin_per_menu',
+  );
+
+  // Exported permission: 'administer menu-child-and-youth-menu menu items'.
+  $permissions['administer menu-child-and-youth-menu menu items'] = array(
+    'name' => 'administer menu-child-and-youth-menu menu items',
+    'roles' => array(
+      'super administrator' => 'super administrator',
+    ),
+    'module' => 'menu_admin_per_menu',
+  );
+
+  // Exported permission: 'administer menu-footer-menu menu items'.
+  $permissions['administer menu-footer-menu menu items'] = array(
+    'name' => 'administer menu-footer-menu menu items',
+    'roles' => array(
+      'super administrator' => 'super administrator',
+    ),
+    'module' => 'menu_admin_per_menu',
+  );
+
+  // Exported permission: 'administer menu-foster-parent-and-volunteer menu items'.
+  $permissions['administer menu-foster-parent-and-volunteer menu items'] = array(
+    'name' => 'administer menu-foster-parent-and-volunteer menu items',
+    'roles' => array(
+      'foster parent and volunteer admin' => 'foster parent and volunteer admin',
+      'super administrator' => 'super administrator',
+    ),
+    'module' => 'menu_admin_per_menu',
+  );
+
+  // Exported permission: 'administer menu-social-menu menu items'.
+  $permissions['administer menu-social-menu menu items'] = array(
+    'name' => 'administer menu-social-menu menu items',
+    'roles' => array(
+      'super administrator' => 'super administrator',
+    ),
+    'module' => 'menu_admin_per_menu',
+  );
+
+  // Exported permission: 'administer menu-staff-menu menu items'.
+  $permissions['administer menu-staff-menu menu items'] = array(
+    'name' => 'administer menu-staff-menu menu items',
+    'roles' => array(
+      'staff admin' => 'staff admin',
+      'super administrator' => 'super administrator',
+    ),
+    'module' => 'menu_admin_per_menu',
+  );
+
+  // Exported permission: 'administer menu-top-menu menu items'.
+  $permissions['administer menu-top-menu menu items'] = array(
+    'name' => 'administer menu-top-menu menu items',
+    'roles' => array(
+      'super administrator' => 'super administrator',
+    ),
+    'module' => 'menu_admin_per_menu',
+  );
+
+  // Exported permission: 'administer menu-youth-zone-menu menu items'.
+  $permissions['administer menu-youth-zone-menu menu items'] = array(
+    'name' => 'administer menu-youth-zone-menu menu items',
+    'roles' => array(
+      'super administrator' => 'super administrator',
+    ),
+    'module' => 'menu_admin_per_menu',
+  );
+
   // Exported permission: 'administer modules'.
   $permissions['administer modules'] = array(
     'name' => 'administer modules',
@@ -339,6 +456,15 @@ function slcas_user_default_permissions() {
       'super administrator' => 'super administrator',
     ),
     'module' => 'multifield',
+  );
+
+  // Exported permission: 'administer navigation menu items'.
+  $permissions['administer navigation menu items'] = array(
+    'name' => 'administer navigation menu items',
+    'roles' => array(
+      'super administrator' => 'super administrator',
+    ),
+    'module' => 'menu_admin_per_menu',
   );
 
   // Exported permission: 'administer nodequeue'.
@@ -466,6 +592,15 @@ function slcas_user_default_permissions() {
       'super administrator' => 'super administrator',
     ),
     'module' => 'path',
+  );
+
+  // Exported permission: 'administer user-menu menu items'.
+  $permissions['administer user-menu menu items'] = array(
+    'name' => 'administer user-menu menu items',
+    'roles' => array(
+      'super administrator' => 'super administrator',
+    ),
+    'module' => 'menu_admin_per_menu',
   );
 
   // Exported permission: 'administer users'.

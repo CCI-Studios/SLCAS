@@ -98,22 +98,6 @@ function slcas_default_entity_rule_setting() {
     "false_msg" : null,
     "rdf_mapping" : []
   }');
-  $items['5'] = entity_import('entity_rule_setting', '{
-    "id" : "5",
-    "entity_type" : "entityform",
-    "bundle" : "report_a_concern",
-    "op" : "entityform_submission",
-    "rules_config" : "rules_entityform_notification_email_admin",
-    "weight" : "0",
-    "args" : {
-      "email_subject" : "Form submission: Report a Concern",
-      "email_body" : "",
-      "show_submission" : 1,
-      "to_email" : "lbujaki@ccistudios.com, cmorris@ccistudios.com"
-    },
-    "false_msg" : null,
-    "rdf_mapping" : []
-  }');
   return $items;
 }
 

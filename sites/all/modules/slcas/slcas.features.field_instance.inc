@@ -158,7 +158,7 @@ function slcas_field_default_field_instances() {
         'module' => 'markup',
         'settings' => array(),
         'type' => 'markup_default',
-        'weight' => 98,
+        'weight' => 90,
       ),
     ),
     'entity_type' => 'entityform',
@@ -189,13 +189,13 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 32,
+        'weight' => 34,
       ),
     ),
     'entity_type' => 'entityform',
     'field_name' => 'field_address_apt_unit_no',
     'label' => 'Address & Apt/Unit No.',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'text_processing' => 0,
       'user_register_form' => FALSE,
@@ -223,13 +223,13 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 97,
+        'weight' => 83,
       ),
     ),
     'entity_type' => 'entityform',
     'field_name' => 'field_age_of_child_or_age_range_',
     'label' => 'Age of Child (or age range)',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'text_processing' => 0,
       'user_register_form' => FALSE,
@@ -261,7 +261,7 @@ function slcas_field_default_field_instances() {
         'module' => 'list',
         'settings' => array(),
         'type' => 'list_default',
-        'weight' => 99,
+        'weight' => 91,
       ),
     ),
     'entity_type' => 'entityform',
@@ -298,7 +298,7 @@ function slcas_field_default_field_instances() {
         'module' => 'list',
         'settings' => array(),
         'type' => 'list_default',
-        'weight' => 100,
+        'weight' => 92,
       ),
     ),
     'entity_type' => 'entityform',
@@ -329,8 +329,8 @@ function slcas_field_default_field_instances() {
         'label' => 'above',
         'module' => 'markup',
         'settings' => array(),
-        'type' => 'markup_default',
-        'weight' => 72,
+        'type' => 'markup_view',
+        'weight' => 1,
       ),
     ),
     'entity_type' => 'entityform',
@@ -359,8 +359,8 @@ function slcas_field_default_field_instances() {
         'label' => 'above',
         'module' => 'markup',
         'settings' => array(),
-        'type' => 'markup_default',
-        'weight' => 73,
+        'type' => 'markup_view',
+        'weight' => 17,
       ),
     ),
     'entity_type' => 'entityform',
@@ -397,7 +397,7 @@ function slcas_field_default_field_instances() {
     'entity_type' => 'entityform',
     'field_name' => 'field_birthplace',
     'label' => 'Birthplace',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'text_processing' => 0,
       'user_register_form' => FALSE,
@@ -425,13 +425,13 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 21,
+        'weight' => 22,
       ),
     ),
     'entity_type' => 'entityform',
     'field_name' => 'field_birthplace_2',
     'label' => 'Birthplace',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'text_processing' => 0,
       'user_register_form' => FALSE,
@@ -459,7 +459,7 @@ function slcas_field_default_field_instances() {
         'module' => 'list',
         'settings' => array(),
         'type' => 'list_default',
-        'weight' => 69,
+        'weight' => 87,
       ),
     ),
     'entity_type' => 'entityform',
@@ -490,7 +490,7 @@ function slcas_field_default_field_instances() {
         'module' => 'list',
         'settings' => array(),
         'type' => 'list_default',
-        'weight' => 68,
+        'weight' => 86,
       ),
     ),
     'entity_type' => 'entityform',
@@ -521,13 +521,13 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 40,
+        'weight' => 44,
       ),
     ),
     'entity_type' => 'entityform',
     'field_name' => 'field_cell_phone',
     'label' => 'Cell Phone',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'text_processing' => 0,
       'user_register_form' => FALSE,
@@ -555,13 +555,13 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 42,
+        'weight' => 47,
       ),
     ),
     'entity_type' => 'entityform',
     'field_name' => 'field_cell_phone_2',
     'label' => 'Cell Phone',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'text_processing' => 0,
       'user_register_form' => FALSE,
@@ -591,7 +591,7 @@ function slcas_field_default_field_instances() {
           'view_mode' => 'default',
         ),
         'type' => 'multifield_default',
-        'weight' => 43,
+        'weight' => 48,
       ),
     ),
     'entity_type' => 'entityform',
@@ -628,7 +628,7 @@ function slcas_field_default_field_instances() {
     'entity_type' => 'entityform',
     'field_name' => 'field_citizenship',
     'label' => 'Citizenship',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'text_processing' => 0,
       'user_register_form' => FALSE,
@@ -656,13 +656,13 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 31,
+        'weight' => 32,
       ),
     ),
     'entity_type' => 'entityform',
     'field_name' => 'field_citizenship_2',
     'label' => 'Citizenship',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'text_processing' => 0,
       'user_register_form' => FALSE,
@@ -690,13 +690,13 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 33,
+        'weight' => 35,
       ),
     ),
     'entity_type' => 'entityform',
     'field_name' => 'field_city_town',
     'label' => 'City/Town',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'text_processing' => 0,
       'user_register_form' => FALSE,
@@ -724,13 +724,13 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 54,
+        'weight' => 66,
       ),
     ),
     'entity_type' => 'entityform',
     'field_name' => 'field_community_activities',
     'label' => 'Community Activities for Applicant #1',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'text_processing' => 0,
       'user_register_form' => FALSE,
@@ -758,13 +758,13 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 96,
+        'weight' => 67,
       ),
     ),
     'entity_type' => 'entityform',
     'field_name' => 'field_community_activities_2',
     'label' => 'Community Activities for Applicant #2',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'text_processing' => 0,
       'user_register_form' => FALSE,
@@ -790,8 +790,8 @@ function slcas_field_default_field_instances() {
         'label' => 'above',
         'module' => 'markup',
         'settings' => array(),
-        'type' => 'markup_default',
-        'weight' => 76,
+        'type' => 'markup_view',
+        'weight' => 42,
       ),
     ),
     'entity_type' => 'entityform',
@@ -820,8 +820,8 @@ function slcas_field_default_field_instances() {
         'label' => 'above',
         'module' => 'markup',
         'settings' => array(),
-        'type' => 'markup_default',
-        'weight' => 77,
+        'type' => 'markup_view',
+        'weight' => 45,
       ),
     ),
     'entity_type' => 'entityform',
@@ -850,8 +850,8 @@ function slcas_field_default_field_instances() {
         'label' => 'above',
         'module' => 'markup',
         'settings' => array(),
-        'type' => 'markup_default',
-        'weight' => 75,
+        'type' => 'markup_view',
+        'weight' => 41,
       ),
     ),
     'entity_type' => 'entityform',
@@ -887,7 +887,7 @@ function slcas_field_default_field_instances() {
           'multiple_to' => '',
         ),
         'type' => 'date_default',
-        'weight' => 79,
+        'weight' => 52,
       ),
     ),
     'entity_type' => 'entityform',
@@ -934,7 +934,7 @@ function slcas_field_default_field_instances() {
           'multiple_to' => '',
         ),
         'type' => 'date_default',
-        'weight' => 80,
+        'weight' => 53,
       ),
     ),
     'entity_type' => 'entityform',
@@ -987,7 +987,7 @@ function slcas_field_default_field_instances() {
     'entity_type' => 'entityform',
     'field_name' => 'field_date_of_birth',
     'label' => 'Date of Birth',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'default_value' => 'blank',
       'default_value2' => 'same',
@@ -1028,13 +1028,13 @@ function slcas_field_default_field_instances() {
           'multiple_to' => '',
         ),
         'type' => 'date_default',
-        'weight' => 20,
+        'weight' => 21,
       ),
     ),
     'entity_type' => 'entityform',
     'field_name' => 'field_date_of_birth_2',
     'label' => 'Date of Birth',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'default_value' => 'blank',
       'default_value2' => 'same',
@@ -1068,8 +1068,8 @@ function slcas_field_default_field_instances() {
         'label' => 'above',
         'module' => 'markup',
         'settings' => array(),
-        'type' => 'markup_default',
-        'weight' => 86,
+        'type' => 'markup_view',
+        'weight' => 81,
       ),
     ),
     'entity_type' => 'entityform',
@@ -1106,7 +1106,7 @@ function slcas_field_default_field_instances() {
     'entity_type' => 'entityform',
     'field_name' => 'field_education',
     'label' => 'Education',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'text_processing' => 0,
       'user_register_form' => FALSE,
@@ -1134,13 +1134,13 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 24,
+        'weight' => 25,
       ),
     ),
     'entity_type' => 'entityform',
     'field_name' => 'field_education_2',
     'label' => 'Education',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'text_processing' => 0,
       'user_register_form' => FALSE,
@@ -1174,7 +1174,7 @@ function slcas_field_default_field_instances() {
     'entity_type' => 'entityform',
     'field_name' => 'field_employer',
     'label' => 'Employer',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'text_processing' => 0,
       'user_register_form' => FALSE,
@@ -1202,13 +1202,13 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 27,
+        'weight' => 28,
       ),
     ),
     'entity_type' => 'entityform',
     'field_name' => 'field_employer_2',
     'label' => 'Employer',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'text_processing' => 0,
       'user_register_form' => FALSE,
@@ -1242,7 +1242,7 @@ function slcas_field_default_field_instances() {
     'entity_type' => 'entityform',
     'field_name' => 'field_ethnic_origin',
     'label' => 'Ethnic Origin',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'text_processing' => 0,
       'user_register_form' => FALSE,
@@ -1270,13 +1270,13 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 29,
+        'weight' => 30,
       ),
     ),
     'entity_type' => 'entityform',
     'field_name' => 'field_ethnic_origin_2',
     'label' => 'Ethnic origin',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'text_processing' => 0,
       'user_register_form' => FALSE,
@@ -1306,7 +1306,7 @@ function slcas_field_default_field_instances() {
           'view_mode' => 'default',
         ),
         'type' => 'multifield_default',
-        'weight' => 87,
+        'weight' => 57,
       ),
     ),
     'entity_type' => 'entityform',
@@ -1339,7 +1339,7 @@ function slcas_field_default_field_instances() {
           'view_mode' => 'default',
         ),
         'type' => 'multifield_default',
-        'weight' => 89,
+        'weight' => 59,
       ),
     ),
     'entity_type' => 'entityform',
@@ -1370,13 +1370,13 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 17,
+        'weight' => 18,
       ),
     ),
     'entity_type' => 'entityform',
     'field_name' => 'field_full_legal_name_2',
     'label' => 'Full Legal Name',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'text_processing' => 0,
       'user_register_form' => FALSE,
@@ -1402,8 +1402,8 @@ function slcas_field_default_field_instances() {
         'label' => 'above',
         'module' => 'markup',
         'settings' => array(),
-        'type' => 'markup_default',
-        'weight' => 82,
+        'type' => 'markup_view',
+        'weight' => 63,
       ),
     ),
     'entity_type' => 'entityform',
@@ -1465,13 +1465,13 @@ function slcas_field_default_field_instances() {
         'module' => 'list',
         'settings' => array(),
         'type' => 'list_default',
-        'weight' => 22,
+        'weight' => 23,
       ),
     ),
     'entity_type' => 'entityform',
     'field_name' => 'field_gender_2',
     'label' => 'Gender',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'user_register_form' => FALSE,
     ),
@@ -1496,7 +1496,7 @@ function slcas_field_default_field_instances() {
         'module' => 'list',
         'settings' => array(),
         'type' => 'list_default',
-        'weight' => 65,
+        'weight' => 82,
       ),
     ),
     'entity_type' => 'entityform',
@@ -1527,7 +1527,7 @@ function slcas_field_default_field_instances() {
         'module' => 'list',
         'settings' => array(),
         'type' => 'list_default',
-        'weight' => 61,
+        'weight' => 76,
       ),
     ),
     'entity_type' => 'entityform',
@@ -1558,7 +1558,7 @@ function slcas_field_default_field_instances() {
         'module' => 'list',
         'settings' => array(),
         'type' => 'list_default',
-        'weight' => 62,
+        'weight' => 77,
       ),
     ),
     'entity_type' => 'entityform',
@@ -1589,7 +1589,7 @@ function slcas_field_default_field_instances() {
         'module' => 'list',
         'settings' => array(),
         'type' => 'list_default',
-        'weight' => 59,
+        'weight' => 74,
       ),
     ),
     'entity_type' => 'entityform',
@@ -1620,7 +1620,7 @@ function slcas_field_default_field_instances() {
         'module' => 'list',
         'settings' => array(),
         'type' => 'list_default',
-        'weight' => 60,
+        'weight' => 75,
       ),
     ),
     'entity_type' => 'entityform',
@@ -1651,13 +1651,13 @@ function slcas_field_default_field_instances() {
         'module' => 'email',
         'settings' => array(),
         'type' => 'email_default',
-        'weight' => 38,
+        'weight' => 40,
       ),
     ),
     'entity_type' => 'entityform',
     'field_name' => 'field_home_email',
     'label' => 'Home Email',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'user_register_form' => FALSE,
     ),
@@ -1684,7 +1684,7 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 37,
+        'weight' => 39,
       ),
     ),
     'entity_type' => 'entityform',
@@ -1716,8 +1716,8 @@ function slcas_field_default_field_instances() {
         'label' => 'above',
         'module' => 'markup',
         'settings' => array(),
-        'type' => 'markup_default',
-        'weight' => 83,
+        'type' => 'markup_view',
+        'weight' => 68,
       ),
     ),
     'entity_type' => 'entityform',
@@ -1746,8 +1746,8 @@ function slcas_field_default_field_instances() {
         'label' => 'above',
         'module' => 'markup',
         'settings' => array(),
-        'type' => 'markup_default',
-        'weight' => 74,
+        'type' => 'markup_view',
+        'weight' => 33,
       ),
     ),
     'entity_type' => 'entityform',
@@ -1778,13 +1778,13 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 36,
+        'weight' => 38,
       ),
     ),
     'entity_type' => 'entityform',
     'field_name' => 'field_home_phone',
     'label' => 'Home Phone',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'text_processing' => 0,
       'user_register_form' => FALSE,
@@ -1812,13 +1812,13 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 56,
+        'weight' => 70,
       ),
     ),
     'entity_type' => 'entityform',
     'field_name' => 'field_how_long_have_you_lived_at',
     'label' => 'How long have you lived at your present address?',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'text_processing' => 0,
       'user_register_form' => FALSE,
@@ -1846,13 +1846,13 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 53,
+        'weight' => 64,
       ),
     ),
     'entity_type' => 'entityform',
     'field_name' => 'field_interests_hobbies',
     'label' => 'Interests, Hobbies for Applicant #1',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'text_processing' => 0,
       'user_register_form' => FALSE,
@@ -1880,13 +1880,13 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 95,
+        'weight' => 65,
       ),
     ),
     'entity_type' => 'entityform',
     'field_name' => 'field_interests_hobbies_2',
     'label' => 'Interests, Hobbies for Applicant #2',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'text_processing' => 0,
       'user_register_form' => FALSE,
@@ -1914,7 +1914,7 @@ function slcas_field_default_field_instances() {
         'module' => 'list',
         'settings' => array(),
         'type' => 'list_default',
-        'weight' => 63,
+        'weight' => 79,
       ),
     ),
     'entity_type' => 'entityform',
@@ -1951,7 +1951,7 @@ function slcas_field_default_field_instances() {
     'entity_type' => 'entityform',
     'field_name' => 'field_languages_spoken',
     'label' => 'Language(s) spoken',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'text_processing' => 0,
       'user_register_form' => FALSE,
@@ -1979,13 +1979,13 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 25,
+        'weight' => 26,
       ),
     ),
     'entity_type' => 'entityform',
     'field_name' => 'field_languages_spoken_2',
     'label' => 'Language(s) spoken',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'text_processing' => 0,
       'user_register_form' => FALSE,
@@ -2047,7 +2047,7 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 18,
+        'weight' => 19,
       ),
     ),
     'entity_type' => 'entityform',
@@ -2081,7 +2081,7 @@ function slcas_field_default_field_instances() {
         'module' => 'list',
         'settings' => array(),
         'type' => 'list_default',
-        'weight' => 101,
+        'weight' => 51,
       ),
     ),
     'entity_type' => 'entityform',
@@ -2110,8 +2110,8 @@ function slcas_field_default_field_instances() {
         'label' => 'above',
         'module' => 'markup',
         'settings' => array(),
-        'type' => 'markup_default',
-        'weight' => 78,
+        'type' => 'markup_view',
+        'weight' => 50,
       ),
     ),
     'entity_type' => 'entityform',
@@ -2144,7 +2144,7 @@ function slcas_field_default_field_instances() {
           'view_mode' => 'default',
         ),
         'type' => 'multifield_default',
-        'weight' => 88,
+        'weight' => 58,
       ),
     ),
     'entity_type' => 'entityform',
@@ -2177,7 +2177,7 @@ function slcas_field_default_field_instances() {
           'view_mode' => 'default',
         ),
         'type' => 'multifield_default',
-        'weight' => 90,
+        'weight' => 60,
       ),
     ),
     'entity_type' => 'entityform',
@@ -2208,7 +2208,7 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 0,
+        'weight' => 2,
       ),
     ),
     'entity_type' => 'entityform',
@@ -2276,7 +2276,7 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 30,
+        'weight' => 31,
       ),
     ),
     'entity_type' => 'entityform',
@@ -2310,13 +2310,13 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 57,
+        'weight' => 71,
       ),
     ),
     'entity_type' => 'entityform',
     'field_name' => 'field_number_and_types_of_rooms',
     'label' => 'Number and types of rooms',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'text_processing' => 0,
       'user_register_form' => FALSE,
@@ -2348,7 +2348,7 @@ function slcas_field_default_field_instances() {
         'module' => 'list',
         'settings' => array(),
         'type' => 'list_default',
-        'weight' => 91,
+        'weight' => 0,
       ),
     ),
     'entity_type' => 'entityform',
@@ -2385,7 +2385,7 @@ function slcas_field_default_field_instances() {
     'entity_type' => 'entityform',
     'field_name' => 'field_occupation',
     'label' => 'Occupation',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'text_processing' => 0,
       'user_register_form' => FALSE,
@@ -2413,13 +2413,13 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 26,
+        'weight' => 27,
       ),
     ),
     'entity_type' => 'entityform',
     'field_name' => 'field_occupation_2',
     'label' => 'Occupation',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'text_processing' => 0,
       'user_register_form' => FALSE,
@@ -2449,7 +2449,7 @@ function slcas_field_default_field_instances() {
           'view_mode' => 'default',
         ),
         'type' => 'multifield_default',
-        'weight' => 44,
+        'weight' => 49,
       ),
     ),
     'entity_type' => 'entityform',
@@ -2480,7 +2480,7 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 64,
+        'weight' => 80,
       ),
     ),
     'entity_type' => 'entityform',
@@ -2516,7 +2516,7 @@ function slcas_field_default_field_instances() {
           'view_mode' => 'default',
         ),
         'type' => 'multifield_default',
-        'weight' => 45,
+        'weight' => 54,
       ),
     ),
     'entity_type' => 'entityform',
@@ -2549,7 +2549,7 @@ function slcas_field_default_field_instances() {
           'view_mode' => 'default',
         ),
         'type' => 'multifield_default',
-        'weight' => 46,
+        'weight' => 55,
       ),
     ),
     'entity_type' => 'entityform',
@@ -2580,13 +2580,13 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 35,
+        'weight' => 37,
       ),
     ),
     'entity_type' => 'entityform',
     'field_name' => 'field_postal_code',
     'label' => 'Postal Code',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'text_processing' => 0,
       'user_register_form' => FALSE,
@@ -2612,8 +2612,8 @@ function slcas_field_default_field_instances() {
         'label' => 'above',
         'module' => 'markup',
         'settings' => array(),
-        'type' => 'markup_default',
-        'weight' => 84,
+        'type' => 'markup_view',
+        'weight' => 73,
       ),
     ),
     'entity_type' => 'entityform',
@@ -2642,8 +2642,8 @@ function slcas_field_default_field_instances() {
         'label' => 'above',
         'module' => 'markup',
         'settings' => array(),
-        'type' => 'markup_default',
-        'weight' => 85,
+        'type' => 'markup_view',
+        'weight' => 78,
       ),
     ),
     'entity_type' => 'entityform',
@@ -2708,7 +2708,7 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 19,
+        'weight' => 20,
       ),
     ),
     'entity_type' => 'entityform',
@@ -2742,13 +2742,13 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 34,
+        'weight' => 36,
       ),
     ),
     'entity_type' => 'entityform',
     'field_name' => 'field_province',
     'label' => 'Province',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'text_processing' => 0,
       'user_register_form' => FALSE,
@@ -2776,7 +2776,7 @@ function slcas_field_default_field_instances() {
         'module' => 'list',
         'settings' => array(),
         'type' => 'list_default',
-        'weight' => 66,
+        'weight' => 84,
       ),
     ),
     'entity_type' => 'entityform',
@@ -2813,7 +2813,7 @@ function slcas_field_default_field_instances() {
     'entity_type' => 'entityform',
     'field_name' => 'field_racial_origin',
     'label' => 'Racial origin',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'text_processing' => 0,
       'user_register_form' => FALSE,
@@ -2841,13 +2841,13 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 28,
+        'weight' => 29,
       ),
     ),
     'entity_type' => 'entityform',
     'field_name' => 'field_racial_origin_2',
     'label' => 'Racial origin',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'text_processing' => 0,
       'user_register_form' => FALSE,
@@ -2873,8 +2873,8 @@ function slcas_field_default_field_instances() {
         'label' => 'above',
         'module' => 'markup',
         'settings' => array(),
-        'type' => 'markup_default',
-        'weight' => 81,
+        'type' => 'markup_view',
+        'weight' => 56,
       ),
     ),
     'entity_type' => 'entityform',
@@ -2911,7 +2911,7 @@ function slcas_field_default_field_instances() {
     'entity_type' => 'entityform',
     'field_name' => 'field_religion',
     'label' => 'Religion',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'text_processing' => 0,
       'user_register_form' => FALSE,
@@ -2939,13 +2939,13 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 23,
+        'weight' => 24,
       ),
     ),
     'entity_type' => 'entityform',
     'field_name' => 'field_religion_2',
     'label' => 'Religion',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'text_processing' => 0,
       'user_register_form' => FALSE,
@@ -2973,7 +2973,7 @@ function slcas_field_default_field_instances() {
         'module' => 'list',
         'settings' => array(),
         'type' => 'list_default',
-        'weight' => 55,
+        'weight' => 69,
       ),
     ),
     'entity_type' => 'entityform',
@@ -2992,6 +2992,36 @@ function slcas_field_default_field_instances() {
     ),
   );
 
+  // Exported field_instance: 'entityform-foster_application_form-field_review'
+  $field_instances['entityform-foster_application_form-field_review'] = array(
+    'bundle' => 'foster_application_form',
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'markup',
+        'settings' => array(),
+        'type' => 'markup_default',
+        'weight' => 93,
+      ),
+    ),
+    'entity_type' => 'entityform',
+    'field_name' => 'field_review',
+    'label' => 'Review',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 0,
+      'module' => 'markup',
+      'settings' => array(),
+      'type' => 'markup',
+      'weight' => 93,
+    ),
+  );
+
   // Exported field_instance: 'entityform-foster_application_form-field_siblings_of_applicant_1'
   $field_instances['entityform-foster_application_form-field_siblings_of_applicant_1'] = array(
     'bundle' => 'foster_application_form',
@@ -3006,7 +3036,7 @@ function slcas_field_default_field_instances() {
           'view_mode' => 'default',
         ),
         'type' => 'multifield_default',
-        'weight' => 92,
+        'weight' => 61,
       ),
     ),
     'entity_type' => 'entityform',
@@ -3039,7 +3069,7 @@ function slcas_field_default_field_instances() {
           'view_mode' => 'default',
         ),
         'type' => 'multifield_default',
-        'weight' => 93,
+        'weight' => 62,
       ),
     ),
     'entity_type' => 'entityform',
@@ -3070,13 +3100,13 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 71,
+        'weight' => 89,
       ),
     ),
     'entity_type' => 'entityform',
     'field_name' => 'field_significant_training_or_xp',
     'label' => 'Please list any significant training, experience and/or volunteer experience you have acquired',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'text_processing' => 0,
       'user_register_form' => FALSE,
@@ -3104,7 +3134,7 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 67,
+        'weight' => 85,
       ),
     ),
     'entity_type' => 'entityform',
@@ -3138,13 +3168,13 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 70,
+        'weight' => 88,
       ),
     ),
     'entity_type' => 'entityform',
     'field_name' => 'field_what_type_of_child_do_you_',
     'label' => 'What type of child do you feel would best adapt to your family unit and why?',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'text_processing' => 0,
       'user_register_form' => FALSE,
@@ -3172,13 +3202,13 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 58,
+        'weight' => 72,
       ),
     ),
     'entity_type' => 'entityform',
     'field_name' => 'field_where_in_the_house_locatio',
     'label' => 'Where in the house (location) and on what type of bed would foster children sleep?',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'text_processing' => 0,
       'user_register_form' => FALSE,
@@ -3206,13 +3236,13 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 39,
+        'weight' => 43,
       ),
     ),
     'entity_type' => 'entityform',
     'field_name' => 'field_work_phone',
     'label' => 'Work Phone',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'text_processing' => 0,
       'user_register_form' => FALSE,
@@ -3240,13 +3270,13 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 41,
+        'weight' => 46,
       ),
     ),
     'entity_type' => 'entityform',
     'field_name' => 'field_work_phone_2',
     'label' => 'Work Phone',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'text_processing' => 0,
       'user_register_form' => FALSE,
@@ -3280,7 +3310,7 @@ function slcas_field_default_field_instances() {
     'entity_type' => 'entityform',
     'field_name' => 'field_address_2',
     'label' => 'Address',
-    'required' => 1,
+    'required' => 0,
     'settings' => array(
       'text_processing' => 0,
       'user_register_form' => FALSE,
@@ -3308,7 +3338,7 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 2,
+        'weight' => 3,
       ),
     ),
     'entity_type' => 'entityform',
@@ -3438,8 +3468,8 @@ function slcas_field_default_field_instances() {
         'label' => 'above',
         'module' => 'markup',
         'settings' => array(),
-        'type' => 'markup_default',
-        'weight' => 5,
+        'type' => 'markup_view',
+        'weight' => 0,
       ),
     ),
     'entity_type' => 'entityform',
@@ -3504,7 +3534,7 @@ function slcas_field_default_field_instances() {
         'module' => 'list',
         'settings' => array(),
         'type' => 'list_default',
-        'weight' => 4,
+        'weight' => 5,
       ),
     ),
     'entity_type' => 'entityform',
@@ -3569,7 +3599,7 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 1,
+        'weight' => 2,
       ),
     ),
     'entity_type' => 'entityform',
@@ -3637,7 +3667,7 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 0,
+        'weight' => 1,
       ),
     ),
     'entity_type' => 'entityform',
@@ -3671,13 +3701,13 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 3,
+        'weight' => 4,
       ),
     ),
     'entity_type' => 'entityform',
     'field_name' => 'field_phone_number',
     'label' => 'Phone Number',
-    'required' => 1,
+    'required' => 0,
     'settings' => array(
       'text_processing' => 0,
       'user_register_form' => FALSE,
@@ -3831,7 +3861,7 @@ function slcas_field_default_field_instances() {
         'label' => 'above',
         'module' => 'markup',
         'settings' => array(),
-        'type' => 'markup_default',
+        'type' => 'markup_view',
         'weight' => 14,
       ),
     ),
@@ -3861,7 +3891,7 @@ function slcas_field_default_field_instances() {
         'label' => 'above',
         'module' => 'markup',
         'settings' => array(),
-        'type' => 'markup_default',
+        'type' => 'markup_view',
         'weight' => 6,
       ),
     ),
@@ -3893,7 +3923,7 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 4,
+        'weight' => 7,
       ),
     ),
     'entity_type' => 'entityform',
@@ -3961,7 +3991,7 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 5,
+        'weight' => 8,
       ),
     ),
     'entity_type' => 'entityform',
@@ -3995,13 +4025,13 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 17,
+        'weight' => 23,
       ),
     ),
     'entity_type' => 'entityform',
     'field_name' => 'field_describe',
     'label' => 'Describe',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'text_processing' => 0,
       'user_register_form' => FALSE,
@@ -4029,7 +4059,7 @@ function slcas_field_default_field_instances() {
         'module' => 'list',
         'settings' => array(),
         'type' => 'list_default',
-        'weight' => 15,
+        'weight' => 21,
       ),
     ),
     'entity_type' => 'entityform',
@@ -4060,7 +4090,7 @@ function slcas_field_default_field_instances() {
         'module' => 'list',
         'settings' => array(),
         'type' => 'list_default',
-        'weight' => 14,
+        'weight' => 20,
       ),
     ),
     'entity_type' => 'entityform',
@@ -4091,7 +4121,7 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 12,
+        'weight' => 18,
       ),
     ),
     'entity_type' => 'entityform',
@@ -4125,13 +4155,13 @@ function slcas_field_default_field_instances() {
         'module' => 'email',
         'settings' => array(),
         'type' => 'email_default',
-        'weight' => 23,
+        'weight' => 5,
       ),
     ),
     'entity_type' => 'entityform',
     'field_name' => 'field_email',
     'label' => 'Email',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'user_register_form' => FALSE,
     ),
@@ -4192,13 +4222,13 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 22,
+        'weight' => 4,
       ),
     ),
     'entity_type' => 'entityform',
     'field_name' => 'field_home_phone',
     'label' => 'Home Phone',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'text_processing' => 0,
       'user_register_form' => FALSE,
@@ -4226,13 +4256,13 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 26,
+        'weight' => 12,
       ),
     ),
     'entity_type' => 'entityform',
     'field_name' => 'field_how_long_previous_addr',
     'label' => 'For how long were you at that address?',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'text_processing' => 0,
       'user_register_form' => FALSE,
@@ -4260,7 +4290,7 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 13,
+        'weight' => 19,
       ),
     ),
     'entity_type' => 'entityform',
@@ -4294,7 +4324,7 @@ function slcas_field_default_field_instances() {
         'module' => 'list',
         'settings' => array(),
         'type' => 'list_default',
-        'weight' => 16,
+        'weight' => 22,
       ),
     ),
     'entity_type' => 'entityform',
@@ -4359,13 +4389,13 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 19,
+        'weight' => 25,
       ),
     ),
     'entity_type' => 'entityform',
     'field_name' => 'field_match_characteristics',
     'label' => 'Are there any characteristics that you would like your "match" to possess?',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'text_processing' => 0,
       'user_register_form' => FALSE,
@@ -4393,7 +4423,7 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 9,
+        'weight' => 15,
       ),
     ),
     'entity_type' => 'entityform',
@@ -4427,13 +4457,13 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 20,
+        'weight' => 26,
       ),
     ),
     'entity_type' => 'entityform',
     'field_name' => 'field_other_information',
     'label' => 'Is there any other information that would be helpful for us to know?',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'text_processing' => 0,
       'user_register_form' => FALSE,
@@ -4452,7 +4482,11 @@ function slcas_field_default_field_instances() {
   // Exported field_instance: 'entityform-volunteer_application_form-field_please_review_to_ensure_yo'
   $field_instances['entityform-volunteer_application_form-field_please_review_to_ensure_yo'] = array(
     'bundle' => 'volunteer_application_form',
-    'default_value' => NULL,
+    'default_value' => array(
+      0 => array(
+        'value' => 0,
+      ),
+    ),
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -4461,7 +4495,7 @@ function slcas_field_default_field_instances() {
         'module' => 'list',
         'settings' => array(),
         'type' => 'list_default',
-        'weight' => 21,
+        'weight' => 27,
       ),
     ),
     'entity_type' => 'entityform',
@@ -4474,8 +4508,10 @@ function slcas_field_default_field_instances() {
     'widget' => array(
       'active' => 1,
       'module' => 'options',
-      'settings' => array(),
-      'type' => 'options_buttons',
+      'settings' => array(
+        'display_label' => 1,
+      ),
+      'type' => 'options_onoff',
       'weight' => 27,
     ),
   );
@@ -4492,7 +4528,7 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 6,
+        'weight' => 9,
       ),
     ),
     'entity_type' => 'entityform',
@@ -4526,13 +4562,13 @@ function slcas_field_default_field_instances() {
         'module' => 'list',
         'settings' => array(),
         'type' => 'list_default',
-        'weight' => 24,
+        'weight' => 6,
       ),
     ),
     'entity_type' => 'entityform',
     'field_name' => 'field_prefer_contact',
     'label' => 'How would you prefer that we contact you?',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'user_register_form' => FALSE,
     ),
@@ -4557,13 +4593,13 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 25,
+        'weight' => 11,
       ),
     ),
     'entity_type' => 'entityform',
     'field_name' => 'field_previous_address',
     'label' => 'Previous Address',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'text_processing' => 0,
       'user_register_form' => FALSE,
@@ -4625,7 +4661,7 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 8,
+        'weight' => 14,
       ),
     ),
     'entity_type' => 'entityform',
@@ -4659,7 +4695,7 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 7,
+        'weight' => 10,
       ),
     ),
     'entity_type' => 'entityform',
@@ -4693,7 +4729,7 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 11,
+        'weight' => 17,
       ),
     ),
     'entity_type' => 'entityform',
@@ -4727,7 +4763,7 @@ function slcas_field_default_field_instances() {
         'module' => 'list',
         'settings' => array(),
         'type' => 'list_default',
-        'weight' => 27,
+        'weight' => 13,
       ),
     ),
     'entity_type' => 'entityform',
@@ -4758,13 +4794,13 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 18,
+        'weight' => 24,
       ),
     ),
     'entity_type' => 'entityform',
     'field_name' => 'field_what_children_s_behaviours',
     'label' => 'What children\'s behaviours would be a challenge for you?',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'text_processing' => 0,
       'user_register_form' => FALSE,
@@ -4792,7 +4828,7 @@ function slcas_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 10,
+        'weight' => 16,
       ),
     ),
     'entity_type' => 'entityform',
@@ -4811,6 +4847,1264 @@ function slcas_field_default_field_instances() {
       ),
       'type' => 'text_textarea',
       'weight' => 16,
+    ),
+  );
+
+  // Exported field_instance: 'multifield-children-field_date'
+  $field_instances['multifield-children-field_date'] = array(
+    'bundle' => 'children',
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'date',
+        'settings' => array(
+          'format_type' => 'long',
+          'fromto' => 'both',
+          'multiple_from' => '',
+          'multiple_number' => '',
+          'multiple_to' => '',
+        ),
+        'type' => 'date_default',
+        'weight' => 1,
+      ),
+    ),
+    'entity_type' => 'multifield',
+    'field_name' => 'field_date',
+    'label' => 'Birth Date',
+    'required' => 0,
+    'settings' => array(
+      'default_value' => 'blank',
+      'default_value2' => 'same',
+      'default_value_code' => '',
+      'default_value_code2' => '',
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'date',
+      'settings' => array(
+        'increment' => 15,
+        'input_format' => 'm/d/Y - H:i:s',
+        'input_format_custom' => '',
+        'label_position' => 'above',
+        'text_parts' => array(),
+        'year_range' => '1900:+0',
+      ),
+      'type' => 'date_select',
+      'weight' => 4,
+    ),
+  );
+
+  // Exported field_instance: 'multifield-children-field_gender'
+  $field_instances['multifield-children-field_gender'] = array(
+    'bundle' => 'children',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'list',
+        'settings' => array(),
+        'type' => 'list_default',
+        'weight' => 2,
+      ),
+    ),
+    'entity_type' => 'multifield',
+    'field_name' => 'field_gender',
+    'label' => 'Gender',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'options',
+      'settings' => array(),
+      'type' => 'options_select',
+      'weight' => 6,
+    ),
+  );
+
+  // Exported field_instance: 'multifield-children-field_living_with_whom'
+  $field_instances['multifield-children-field_living_with_whom'] = array(
+    'bundle' => 'children',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 3,
+      ),
+    ),
+    'entity_type' => 'multifield',
+    'field_name' => 'field_living_with_whom',
+    'label' => 'Living with whom',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 7,
+    ),
+  );
+
+  // Exported field_instance: 'multifield-children-field_name'
+  $field_instances['multifield-children-field_name'] = array(
+    'bundle' => 'children',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'multifield',
+    'field_name' => 'field_name',
+    'label' => 'Name',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 2,
+    ),
+  );
+
+  // Exported field_instance: 'multifield-mother-field_address_apt_unit_no'
+  $field_instances['multifield-mother-field_address_apt_unit_no'] = array(
+    'bundle' => 'mother',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 4,
+      ),
+    ),
+    'entity_type' => 'multifield',
+    'field_name' => 'field_address_apt_unit_no',
+    'label' => 'Address',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 6,
+    ),
+  );
+
+  // Exported field_instance: 'multifield-mother-field_birthplace'
+  $field_instances['multifield-mother-field_birthplace'] = array(
+    'bundle' => 'mother',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 5,
+      ),
+    ),
+    'entity_type' => 'multifield',
+    'field_name' => 'field_birthplace',
+    'label' => 'Birthplace',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 8,
+    ),
+  );
+
+  // Exported field_instance: 'multifield-mother-field_date_of_birth'
+  $field_instances['multifield-mother-field_date_of_birth'] = array(
+    'bundle' => 'mother',
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'date',
+        'settings' => array(
+          'format_type' => 'long',
+          'fromto' => 'both',
+          'multiple_from' => '',
+          'multiple_number' => '',
+          'multiple_to' => '',
+        ),
+        'type' => 'date_default',
+        'weight' => 1,
+      ),
+    ),
+    'entity_type' => 'multifield',
+    'field_name' => 'field_date_of_birth',
+    'label' => 'Date of Birth',
+    'required' => 0,
+    'settings' => array(
+      'default_value' => 'blank',
+      'default_value2' => 'same',
+      'default_value_code' => '',
+      'default_value_code2' => '',
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'date',
+      'settings' => array(
+        'increment' => 15,
+        'input_format' => 'm/d/Y - H:i:s',
+        'input_format_custom' => '',
+        'label_position' => 'above',
+        'text_parts' => array(),
+        'year_range' => '1900:+0',
+      ),
+      'type' => 'date_select',
+      'weight' => 2,
+    ),
+  );
+
+  // Exported field_instance: 'multifield-mother-field_education'
+  $field_instances['multifield-mother-field_education'] = array(
+    'bundle' => 'mother',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 8,
+      ),
+    ),
+    'entity_type' => 'multifield',
+    'field_name' => 'field_education',
+    'label' => 'Education',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 14,
+    ),
+  );
+
+  // Exported field_instance: 'multifield-mother-field_health'
+  $field_instances['multifield-mother-field_health'] = array(
+    'bundle' => 'mother',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 6,
+      ),
+    ),
+    'entity_type' => 'multifield',
+    'field_name' => 'field_health',
+    'label' => 'Health',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 10,
+    ),
+  );
+
+  // Exported field_instance: 'multifield-mother-field_if_deceased'
+  $field_instances['multifield-mother-field_if_deceased'] = array(
+    'bundle' => 'mother',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 3,
+      ),
+    ),
+    'entity_type' => 'multifield',
+    'field_name' => 'field_if_deceased',
+    'label' => 'If deceased: date & cause of death',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 4,
+    ),
+  );
+
+  // Exported field_instance: 'multifield-mother-field_maiden_name'
+  $field_instances['multifield-mother-field_maiden_name'] = array(
+    'bundle' => 'mother',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 2,
+      ),
+    ),
+    'entity_type' => 'multifield',
+    'field_name' => 'field_maiden_name',
+    'label' => 'Maiden Name',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 1,
+    ),
+  );
+
+  // Exported field_instance: 'multifield-mother-field_marital_status_dates'
+  $field_instances['multifield-mother-field_marital_status_dates'] = array(
+    'bundle' => 'mother',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 7,
+      ),
+    ),
+    'entity_type' => 'multifield',
+    'field_name' => 'field_marital_status_dates',
+    'label' => 'Marital Status - Dates',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 12,
+    ),
+  );
+
+  // Exported field_instance: 'multifield-mother-field_name'
+  $field_instances['multifield-mother-field_name'] = array(
+    'bundle' => 'mother',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'multifield',
+    'field_name' => 'field_name',
+    'label' => 'Full Name',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 0,
+    ),
+  );
+
+  // Exported field_instance: 'multifield-mother-field_occupation'
+  $field_instances['multifield-mother-field_occupation'] = array(
+    'bundle' => 'mother',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 9,
+      ),
+    ),
+    'entity_type' => 'multifield',
+    'field_name' => 'field_occupation',
+    'label' => 'Principal Occupation',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 16,
+    ),
+  );
+
+  // Exported field_instance: 'multifield-other_adults-field_age'
+  $field_instances['multifield-other_adults-field_age'] = array(
+    'bundle' => 'other_adults',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'number',
+        'settings' => array(
+          'decimal_separator' => '.',
+          'prefix_suffix' => TRUE,
+          'scale' => 0,
+          'thousand_separator' => ' ',
+        ),
+        'type' => 'number_integer',
+        'weight' => 2,
+      ),
+    ),
+    'entity_type' => 'multifield',
+    'field_name' => 'field_age',
+    'label' => 'Age',
+    'required' => 0,
+    'settings' => array(
+      'max' => '',
+      'min' => '',
+      'prefix' => '',
+      'suffix' => '',
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 0,
+      'module' => 'number',
+      'settings' => array(),
+      'type' => 'number',
+      'weight' => 5,
+    ),
+  );
+
+  // Exported field_instance: 'multifield-other_adults-field_gender'
+  $field_instances['multifield-other_adults-field_gender'] = array(
+    'bundle' => 'other_adults',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'list',
+        'settings' => array(),
+        'type' => 'list_default',
+        'weight' => 1,
+      ),
+    ),
+    'entity_type' => 'multifield',
+    'field_name' => 'field_gender',
+    'label' => 'Gender',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'options',
+      'settings' => array(),
+      'type' => 'options_select',
+      'weight' => 4,
+    ),
+  );
+
+  // Exported field_instance: 'multifield-other_adults-field_name'
+  $field_instances['multifield-other_adults-field_name'] = array(
+    'bundle' => 'other_adults',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'multifield',
+    'field_name' => 'field_name',
+    'label' => 'Name',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 2,
+    ),
+  );
+
+  // Exported field_instance: 'multifield-other_adults-field_relationship_to_applicants'
+  $field_instances['multifield-other_adults-field_relationship_to_applicants'] = array(
+    'bundle' => 'other_adults',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 3,
+      ),
+    ),
+    'entity_type' => 'multifield',
+    'field_name' => 'field_relationship_to_applicants',
+    'label' => 'Relationship to Applicant(s)',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 6,
+    ),
+  );
+
+  // Exported field_instance: 'multifield-parent-field_address_apt_unit_no'
+  $field_instances['multifield-parent-field_address_apt_unit_no'] = array(
+    'bundle' => 'parent',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 2,
+      ),
+    ),
+    'entity_type' => 'multifield',
+    'field_name' => 'field_address_apt_unit_no',
+    'label' => 'Address',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 3,
+    ),
+  );
+
+  // Exported field_instance: 'multifield-parent-field_birthplace'
+  $field_instances['multifield-parent-field_birthplace'] = array(
+    'bundle' => 'parent',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 3,
+      ),
+    ),
+    'entity_type' => 'multifield',
+    'field_name' => 'field_birthplace',
+    'label' => 'Birthplace',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 4,
+    ),
+  );
+
+  // Exported field_instance: 'multifield-parent-field_date_of_birth'
+  $field_instances['multifield-parent-field_date_of_birth'] = array(
+    'bundle' => 'parent',
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'date',
+        'settings' => array(
+          'format_type' => 'long',
+          'fromto' => 'both',
+          'multiple_from' => '',
+          'multiple_number' => '',
+          'multiple_to' => '',
+        ),
+        'type' => 'date_default',
+        'weight' => 8,
+      ),
+    ),
+    'entity_type' => 'multifield',
+    'field_name' => 'field_date_of_birth',
+    'label' => 'Date of Birth',
+    'required' => 0,
+    'settings' => array(
+      'default_value' => 'blank',
+      'default_value2' => 'same',
+      'default_value_code' => '',
+      'default_value_code2' => '',
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'date',
+      'settings' => array(
+        'increment' => 15,
+        'input_format' => 'm/d/Y - H:i:s',
+        'input_format_custom' => '',
+        'label_position' => 'above',
+        'text_parts' => array(),
+        'year_range' => '1900:+0',
+      ),
+      'type' => 'date_select',
+      'weight' => 1,
+    ),
+  );
+
+  // Exported field_instance: 'multifield-parent-field_education'
+  $field_instances['multifield-parent-field_education'] = array(
+    'bundle' => 'parent',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 6,
+      ),
+    ),
+    'entity_type' => 'multifield',
+    'field_name' => 'field_education',
+    'label' => 'Education',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 7,
+    ),
+  );
+
+  // Exported field_instance: 'multifield-parent-field_health'
+  $field_instances['multifield-parent-field_health'] = array(
+    'bundle' => 'parent',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 4,
+      ),
+    ),
+    'entity_type' => 'multifield',
+    'field_name' => 'field_health',
+    'label' => 'Health',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 5,
+    ),
+  );
+
+  // Exported field_instance: 'multifield-parent-field_if_deceased'
+  $field_instances['multifield-parent-field_if_deceased'] = array(
+    'bundle' => 'parent',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 1,
+      ),
+    ),
+    'entity_type' => 'multifield',
+    'field_name' => 'field_if_deceased',
+    'label' => 'If deceased: date & cause of death',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 2,
+    ),
+  );
+
+  // Exported field_instance: 'multifield-parent-field_marital_status_dates'
+  $field_instances['multifield-parent-field_marital_status_dates'] = array(
+    'bundle' => 'parent',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 5,
+      ),
+    ),
+    'entity_type' => 'multifield',
+    'field_name' => 'field_marital_status_dates',
+    'label' => 'Marital Status - Dates',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 6,
+    ),
+  );
+
+  // Exported field_instance: 'multifield-parent-field_name'
+  $field_instances['multifield-parent-field_name'] = array(
+    'bundle' => 'parent',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'multifield',
+    'field_name' => 'field_name',
+    'label' => 'Full Name',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 0,
+    ),
+  );
+
+  // Exported field_instance: 'multifield-parent-field_occupation'
+  $field_instances['multifield-parent-field_occupation'] = array(
+    'bundle' => 'parent',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 7,
+      ),
+    ),
+    'entity_type' => 'multifield',
+    'field_name' => 'field_occupation',
+    'label' => 'Principal Occupation',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 8,
+    ),
+  );
+
+  // Exported field_instance: 'multifield-past_marriage-field_date_begun'
+  $field_instances['multifield-past_marriage-field_date_begun'] = array(
+    'bundle' => 'past_marriage',
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'date',
+        'settings' => array(
+          'format_type' => 'long',
+          'fromto' => 'both',
+          'multiple_from' => '',
+          'multiple_number' => '',
+          'multiple_to' => '',
+        ),
+        'type' => 'date_default',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'multifield',
+    'field_name' => 'field_date_begun',
+    'label' => 'Date Begun',
+    'required' => 0,
+    'settings' => array(
+      'default_value' => 'blank',
+      'default_value2' => 'same',
+      'default_value_code' => '',
+      'default_value_code2' => '',
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'date',
+      'settings' => array(
+        'increment' => 15,
+        'input_format' => 'm/d/Y - H:i:s',
+        'input_format_custom' => '',
+        'label_position' => 'above',
+        'text_parts' => array(),
+        'year_range' => '1900:+0',
+      ),
+      'type' => 'date_select',
+      'weight' => 1,
+    ),
+  );
+
+  // Exported field_instance: 'multifield-past_marriage-field_date_ended'
+  $field_instances['multifield-past_marriage-field_date_ended'] = array(
+    'bundle' => 'past_marriage',
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'date',
+        'settings' => array(
+          'format_type' => 'long',
+          'fromto' => 'both',
+          'multiple_from' => '',
+          'multiple_number' => '',
+          'multiple_to' => '',
+        ),
+        'type' => 'date_default',
+        'weight' => 1,
+      ),
+    ),
+    'entity_type' => 'multifield',
+    'field_name' => 'field_date_ended',
+    'label' => 'Date Ended',
+    'required' => 0,
+    'settings' => array(
+      'default_value' => 'blank',
+      'default_value2' => 'same',
+      'default_value_code' => '',
+      'default_value_code2' => '',
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'date',
+      'settings' => array(
+        'increment' => 15,
+        'input_format' => 'm/d/Y - H:i:s',
+        'input_format_custom' => '',
+        'label_position' => 'above',
+        'text_parts' => array(),
+        'year_range' => '1900:+0',
+      ),
+      'type' => 'date_select',
+      'weight' => 2,
+    ),
+  );
+
+  // Exported field_instance: 'multifield-sibling-field_address_apt_unit_no'
+  $field_instances['multifield-sibling-field_address_apt_unit_no'] = array(
+    'bundle' => 'sibling',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 4,
+      ),
+    ),
+    'entity_type' => 'multifield',
+    'field_name' => 'field_address_apt_unit_no',
+    'label' => 'Address',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 5,
+    ),
+  );
+
+  // Exported field_instance: 'multifield-sibling-field_age'
+  $field_instances['multifield-sibling-field_age'] = array(
+    'bundle' => 'sibling',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'number',
+        'settings' => array(
+          'decimal_separator' => '.',
+          'prefix_suffix' => TRUE,
+          'scale' => 0,
+          'thousand_separator' => ' ',
+        ),
+        'type' => 'number_integer',
+        'weight' => 1,
+      ),
+    ),
+    'entity_type' => 'multifield',
+    'field_name' => 'field_age',
+    'label' => 'Age',
+    'required' => 0,
+    'settings' => array(
+      'max' => '',
+      'min' => '',
+      'prefix' => '',
+      'suffix' => '',
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 0,
+      'module' => 'number',
+      'settings' => array(),
+      'type' => 'number',
+      'weight' => 1,
+    ),
+  );
+
+  // Exported field_instance: 'multifield-sibling-field_education'
+  $field_instances['multifield-sibling-field_education'] = array(
+    'bundle' => 'sibling',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 2,
+      ),
+    ),
+    'entity_type' => 'multifield',
+    'field_name' => 'field_education',
+    'label' => 'Education',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 3,
+    ),
+  );
+
+  // Exported field_instance: 'multifield-sibling-field_gender'
+  $field_instances['multifield-sibling-field_gender'] = array(
+    'bundle' => 'sibling',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'list',
+        'settings' => array(),
+        'type' => 'list_default',
+        'weight' => 5,
+      ),
+    ),
+    'entity_type' => 'multifield',
+    'field_name' => 'field_gender',
+    'label' => 'Gender',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'options',
+      'settings' => array(),
+      'type' => 'options_select',
+      'weight' => 2,
+    ),
+  );
+
+  // Exported field_instance: 'multifield-sibling-field_name'
+  $field_instances['multifield-sibling-field_name'] = array(
+    'bundle' => 'sibling',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'multifield',
+    'field_name' => 'field_name',
+    'label' => 'Name',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 0,
+    ),
+  );
+
+  // Exported field_instance: 'multifield-sibling-field_occupation'
+  $field_instances['multifield-sibling-field_occupation'] = array(
+    'bundle' => 'sibling',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 3,
+      ),
+    ),
+    'entity_type' => 'multifield',
+    'field_name' => 'field_occupation',
+    'label' => 'Occupation',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 4,
     ),
   );
 
@@ -4991,6 +6285,47 @@ function slcas_field_default_field_instances() {
       ),
       'type' => 'image_miw',
       'weight' => 32,
+    ),
+  );
+
+  // Exported field_instance: 'node-forum-field_attach_files'
+  $field_instances['node-forum-field_attach_files'] = array(
+    'bundle' => 'forum',
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 10,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_attach_files',
+    'label' => 'Attach Files',
+    'required' => 0,
+    'settings' => array(
+      'description_field' => 0,
+      'file_directory' => '',
+      'file_extensions' => 'txt jpg jpeg gif png doc docx ppt pptx xls xlsx pdf csv odf ai psd eps rtf',
+      'max_filesize' => '',
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'file',
+      'settings' => array(
+        'progress_indicator' => 'throbber',
+      ),
+      'type' => 'file_generic',
+      'weight' => 34,
     ),
   );
 
@@ -5211,13 +6546,14 @@ function slcas_field_default_field_instances() {
     'entity_type' => 'node',
     'field_name' => 'body',
     'label' => 'Body',
-    'required' => FALSE,
+    'required' => 0,
     'settings' => array(
-      'display_summary' => TRUE,
+      'display_summary' => 0,
       'text_processing' => 1,
       'user_register_form' => FALSE,
     ),
     'widget' => array(
+      'active' => 1,
       'module' => 'text',
       'settings' => array(
         'rows' => 20,
@@ -5225,6 +6561,46 @@ function slcas_field_default_field_instances() {
       ),
       'type' => 'text_textarea_with_summary',
       'weight' => 31,
+    ),
+  );
+
+  // Exported field_instance: 'node-highlight-field_highlight_body'
+  $field_instances['node-highlight-field_highlight_body'] = array(
+    'bundle' => 'highlight',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 3,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_highlight_body',
+    'label' => 'Highlight Body',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'rows' => 5,
+      ),
+      'type' => 'text_textarea',
+      'weight' => 35,
     ),
   );
 
@@ -5774,6 +7150,7 @@ function slcas_field_default_field_instances() {
   t('Acknowledgements');
   t('Address');
   t('Address & Apt/Unit No.');
+  t('Age');
   t('Age of Child (or age range)');
   t('Agree (Applicant #1)');
   t('Agree (Applicant #2)');
@@ -5781,8 +7158,10 @@ function slcas_field_default_field_instances() {
   t('Applicant #1');
   t('Applicant #2');
   t('Are there any characteristics that you would like your "match" to possess?');
+  t('Attach Files');
   t('Attachments');
   t('Background Icon');
+  t('Birth Date');
   t('Birthplace');
   t('Body');
   t('Cell Phone');
@@ -5795,6 +7174,8 @@ function slcas_field_default_field_instances() {
   t('Contact Applicant #2');
   t('Contact Information');
   t('Date');
+  t('Date Begun');
+  t('Date Ended');
   t('Date of Birth');
   t('Describe');
   t('Describe the volunteer experience you are looking for');
@@ -5821,6 +7202,7 @@ function slcas_field_default_field_instances() {
   t('For how long were you at that address?');
   t('For how long would you like to volunteer (months/years)?');
   t('Full Legal Name');
+  t('Full Name');
   t('Further Information');
   t('Gender');
   t('Gender of Child');
@@ -5829,6 +7211,8 @@ function slcas_field_default_field_instances() {
   t('Have you previously been involved with a Children\'s Aid Society or any child protection authority outside Ontario?');
   t('Have you previously began or completed an adoption/foster/kin/customary care education program?');
   t('Have you previously began or completed an adoption/foster/kin/customary care homestudy assessment?');
+  t('Health');
+  t('Highlight Body');
   t('Home Email');
   t('Home Fax');
   t('Home Information');
@@ -5837,6 +7221,7 @@ function slcas_field_default_field_instances() {
   t('How do you know the family?');
   t('How long have you lived at your present address?');
   t('How would you prefer that we contact you?');
+  t('If deceased: date & cause of death');
   t('If working one to one with a child/youth, with whom do you prefer to work?');
   t('If yes, please provide specifics');
   t('Image');
@@ -5846,8 +7231,10 @@ function slcas_field_default_field_instances() {
   t('Language(s) spoken');
   t('Last Name');
   t('Link');
+  t('Living with whom');
   t('Maiden Name');
   t('Marital Status');
+  t('Marital Status - Dates');
   t('Marriage Date');
   t('Marriage or Domestic Partnership');
   t('Message');
@@ -5875,11 +7262,14 @@ function slcas_field_default_field_instances() {
   t('Previous Applications');
   t('Previous Child Welfare Involvement');
   t('Previous Names');
+  t('Principal Occupation');
   t('Province');
   t('Race or ethnic origin of child');
   t('Racial origin');
+  t('Relationship to Applicant(s)');
   t('Relatives');
   t('Religion');
+  t('Review');
   t('Siblings of Applicant #1');
   t('Siblings of Applicant #2');
   t('Specify, if any');

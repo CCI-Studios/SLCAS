@@ -225,7 +225,7 @@ board/*',
         'weight' => -26,
       ),
     ),
-    'title' => '',
+    'title' => '<none>',
     'visibility' => 0,
   );
 
