@@ -3300,7 +3300,7 @@ function slcas_field_default_field_bases() {
       'markup' => array(
         'format' => 'full_html',
         'value' => '<hr />
-<p>Please fill out the following details to help us with this request.</p>
+<p>Please fill out the following details to help us with this request. The information you give us helps us more effectively help those under concern.</p>
 ',
       ),
     ),
@@ -4123,28 +4123,6 @@ function slcas_field_default_field_bases() {
     ),
     'translatable' => 0,
     'type' => 'list_boolean',
-  );
-
-  // Exported field_base: 'field_we_would_like_to_remind_th'
-  $field_bases['field_we_would_like_to_remind_th'] = array(
-    'active' => 1,
-    'cardinality' => 1,
-    'deleted' => 0,
-    'entity_types' => array(),
-    'field_name' => 'field_we_would_like_to_remind_th',
-    'foreign keys' => array(),
-    'indexes' => array(),
-    'locked' => 0,
-    'module' => 'markup',
-    'settings' => array(
-      'markup' => array(
-        'format' => 'full_html',
-        'value' => '<p>We would like to remind you that the information provided assists in enabling SLCAS to more effectively help those under concern.</p>
-',
-      ),
-    ),
-    'translatable' => 0,
-    'type' => 'markup',
   );
 
   // Exported field_base: 'field_what_children_s_behaviours'

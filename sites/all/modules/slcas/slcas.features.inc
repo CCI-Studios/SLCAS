@@ -77,23 +77,7 @@ function slcas_default_entity_rule_setting() {
       "email_subject" : "Form submission: Foster Application Form",
       "email_body" : "",
       "show_submission" : 1,
-      "to_email" : "cmorris@ccistudios.com, lbujaki@ccistudios.com"
-    },
-    "false_msg" : null,
-    "rdf_mapping" : []
-  }');
-  $items['4'] = entity_import('entity_rule_setting', '{
-    "id" : "4",
-    "entity_type" : "entityform",
-    "bundle" : "child_and_youth_contact_us",
-    "op" : "entityform_submission",
-    "rules_config" : "rules_entityform_notification_email_admin",
-    "weight" : "0",
-    "args" : {
-      "email_subject" : "Form submission: Child \\u0026 Youth Zone Contact Us",
-      "email_body" : "",
-      "show_submission" : 1,
-      "to_email" : "lbujaki@ccistudios.com, cmorris@ccistudios.com"
+      "to_email" : "recruitment@slcas.on.ca"
     },
     "false_msg" : null,
     "rdf_mapping" : []

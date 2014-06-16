@@ -1311,7 +1311,7 @@ function slcas_field_default_field_instances() {
     ),
     'entity_type' => 'entityform',
     'field_name' => 'field_father_of_applicant_1',
-    'label' => 'Father of Applicant #1',
+    'label' => 'Parent 1 of Applicant #1',
     'required' => 0,
     'settings' => array(
       'user_register_form' => FALSE,
@@ -1344,7 +1344,7 @@ function slcas_field_default_field_instances() {
     ),
     'entity_type' => 'entityform',
     'field_name' => 'field_father_of_applicant_2',
-    'label' => 'Father of Applicant #2',
+    'label' => 'Parent 1 of Applicant #2',
     'required' => 0,
     'settings' => array(
       'user_register_form' => FALSE,
@@ -2149,7 +2149,7 @@ function slcas_field_default_field_instances() {
     ),
     'entity_type' => 'entityform',
     'field_name' => 'field_mother_of_applicant_1',
-    'label' => 'Mother of Applicant #1',
+    'label' => 'Parent 2 of Applicant #1',
     'required' => 0,
     'settings' => array(
       'user_register_form' => FALSE,
@@ -2182,7 +2182,7 @@ function slcas_field_default_field_instances() {
     ),
     'entity_type' => 'entityform',
     'field_name' => 'field_mother_of_applicant_2',
-    'label' => 'Mother of Applicant #2',
+    'label' => 'Parent 2 of Applicant #2',
     'required' => 0,
     'settings' => array(
       'user_register_form' => FALSE,
@@ -3527,7 +3527,7 @@ function slcas_field_default_field_instances() {
     'bundle' => 'report_a_concern',
     'default_value' => NULL,
     'deleted' => 0,
-    'description' => 'The above question is asked so that a band leader may be contacted before the family is contacted by SLCAS.',
+    'description' => 'The above question is asked so that a band leader may be contacted.',
     'display' => array(
       'default' => array(
         'label' => 'above',
@@ -3773,7 +3773,7 @@ function slcas_field_default_field_instances() {
     ),
     'entity_type' => 'entityform',
     'field_name' => 'field_please_fill_out_the_follow',
-    'label' => 'Please fill out the following details to help us with this request.',
+    'label' => 'Please fill out the following details to help us with this request. The information you give us helps us more effectively help',
     'required' => 0,
     'settings' => array(
       'user_register_form' => FALSE,
@@ -3848,36 +3848,6 @@ function slcas_field_default_field_instances() {
       'settings' => array(),
       'type' => 'markup',
       'weight' => 18,
-    ),
-  );
-
-  // Exported field_instance: 'entityform-report_a_concern-field_we_would_like_to_remind_th'
-  $field_instances['entityform-report_a_concern-field_we_would_like_to_remind_th'] = array(
-    'bundle' => 'report_a_concern',
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'above',
-        'module' => 'markup',
-        'settings' => array(),
-        'type' => 'markup_view',
-        'weight' => 14,
-      ),
-    ),
-    'entity_type' => 'entityform',
-    'field_name' => 'field_we_would_like_to_remind_th',
-    'label' => 'We would like to remind the information provided assists in enabling SLCAS to more effectively help those under concern.',
-    'required' => 0,
-    'settings' => array(
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'active' => 0,
-      'module' => 'markup',
-      'settings' => array(),
-      'type' => 'markup',
-      'weight' => 15,
     ),
   );
 
@@ -6266,7 +6236,7 @@ function slcas_field_default_field_instances() {
     'label' => 'Image',
     'required' => 0,
     'settings' => array(
-      'alt_field' => 0,
+      'alt_field' => 1,
       'default_image' => 0,
       'file_directory' => '',
       'file_extensions' => 'png gif jpg jpeg',
@@ -6443,7 +6413,7 @@ function slcas_field_default_field_instances() {
     'label' => 'Image',
     'required' => 1,
     'settings' => array(
-      'alt_field' => 0,
+      'alt_field' => 1,
       'default_image' => 0,
       'file_directory' => '',
       'file_extensions' => 'png gif jpg jpeg',
@@ -6465,9 +6435,11 @@ function slcas_field_default_field_instances() {
         'manualcrop_instant_preview' => 1,
         'manualcrop_require_cropping' => array(
           'header_image' => 'header_image',
+          'highlight' => 0,
         ),
         'manualcrop_styles_list' => array(
           'header_image' => 'header_image',
+          'highlight' => 0,
         ),
         'manualcrop_styles_mode' => 'include',
         'manualcrop_thumblist' => 0,
@@ -7194,8 +7166,6 @@ function slcas_field_default_field_instances() {
   t('Ethnic origin');
   t('Family/Individual Information');
   t('Family/Individual Name');
-  t('Father of Applicant #1');
-  t('Father of Applicant #2');
   t('First Name');
   t('First Nations?');
   t('For how long have you been at that address?');
@@ -7238,20 +7208,22 @@ function slcas_field_default_field_instances() {
   t('Marriage Date');
   t('Marriage or Domestic Partnership');
   t('Message');
-  t('Mother of Applicant #1');
-  t('Mother of Applicant #2');
   t('Name');
   t('Native band name/no.');
   t('Number and types of rooms');
   t('Number of Applicants');
   t('Occupation');
   t('Other Adults Living in Applicant(s) Home');
+  t('Parent 1 of Applicant #1');
+  t('Parent 1 of Applicant #2');
+  t('Parent 2 of Applicant #1');
+  t('Parent 2 of Applicant #2');
   t('Past Marriage or Domestic Partnership (Applicant #1)');
   t('Past Marriage or Domestic Partnership (Applicant #2)');
   t('Phone');
   t('Phone Number');
   t('Please explain your concern');
-  t('Please fill out the following details to help us with this request.');
+  t('Please fill out the following details to help us with this request. The information you give us helps us more effectively help');
   t('Please list any significant training, experience and/or volunteer experience you have acquired');
   t('Please list any training or special skills/interests');
   t('Please review to ensure your information is correct');
@@ -7275,8 +7247,7 @@ function slcas_field_default_field_instances() {
   t('Specify, if any');
   t('Tell us why you want to volunteer for Sarnia Lambton Children\'s Aid Society');
   t('Thank you for taking the time to report your concern and supply us with the above information.  SLCAS will carefully review the ');
-  t('The above question is asked so that a band leader may be contacted before the family is contacted by SLCAS.');
-  t('We would like to remind the information provided assists in enabling SLCAS to more effectively help those under concern.');
+  t('The above question is asked so that a band leader may be contacted.');
   t('What children\'s behaviours would be a challenge for you?');
   t('What type of child do you feel would best adapt to your family unit and why?');
   t('Where in the house (location) and on what type of bed would foster children sleep?');

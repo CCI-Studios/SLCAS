@@ -93,6 +93,8 @@ function slcas_user_default_permissions() {
   $permissions['access notify'] = array(
     'name' => 'access notify',
     'roles' => array(
+      'staff' => 'staff',
+      'staff admin' => 'staff admin',
       'super administrator' => 'super administrator',
     ),
     'module' => 'notify',
