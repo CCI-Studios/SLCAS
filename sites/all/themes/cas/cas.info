@@ -11,6 +11,7 @@ scripts[] = js/gallery.js
 scripts[] = js/icons.js
 scripts[] = js/jquery.maskedinput.min.js
 scripts[] = js/phone-mask.js
+scripts[] = js/stop-animations.js
 
 
 stylesheets[all][] = stylesheets/screen.css

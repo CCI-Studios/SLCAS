@@ -8,11 +8,12 @@
 
 	#block-system-main
 	{
-		background:$orange;
+		background:$lightorange;
 		color:white;
 		font-size:1.3em;
 		padding:15px 30px;
 		line-height:130%;
+		text-shadow:0 0 3px $darkorange;
 
 		.content
 		{
@@ -212,6 +213,7 @@
 			background:url(../images/date-bg.png) no-repeat left top;
 			line-height:100%;
 			font-weight:bold;
+			text-shadow:0 0 3px rgba(0,0,0,0.5);
 		}
 		.views-field-title
 		{
@@ -252,10 +254,11 @@
 
 #block-views-highlight-block
 {
-	background:$orange;
+	background:$lightorange;
 	position:relative;
 	color:white;
 	height:370px;
+	text-shadow:0 0 3px $darkorange;
 
 	.content
 	{

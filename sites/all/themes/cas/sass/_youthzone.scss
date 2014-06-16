@@ -53,6 +53,7 @@ body.node-type-child-and-youth-page
 		height:400px;
 		text-align:center;
 		position: relative;
+		outline-color:white;
 
 		img
 		{
@@ -136,8 +137,6 @@ body.node-type-child-and-youth-page
 						-webkit-transition:left 0.5s;
 						-moz-transition:left 0.5s;
 						outline: 1px solid transparent;
-
-						@include animation(ribbon, 0, 1.5s, infinite, linear);
 					}
 					&:hover:after
 					{
@@ -176,6 +175,8 @@ body.node-type-child-and-youth-page
 						font-size:1.25em;
 						position:relative;
 						z-index:2;
+						outline-color:white;
+						text-shadow:0 0 3px rgba(0,0,0,0.4);
 					}
 				}
 			}
@@ -325,8 +326,6 @@ body.node-type-child-and-youth-page
 			top: 3px;
 			left: 1px;
 			z-index: 1;
-
-			@include animation(kite, 0, 6s, infinite, linear);
 		}
 		&:after
 		{
@@ -350,8 +349,6 @@ body.node-type-child-and-youth-page
 		bottom: 450px;
 		right: -60px;
 		outline: 1px solid transparent;
-
-		@include animation(apple, 3s, 15s, infinite, linear);
 	}
 
 	#bird
@@ -372,8 +369,6 @@ body.node-type-child-and-youth-page
 			position: absolute;
 			top:9px;
 			left: 70px;
-
-			@include animation(bird, 3s, 10s, infinite, steps(1));
 		}
 	}
 
@@ -395,8 +390,6 @@ body.node-type-child-and-youth-page
 			top: 8px;
 			left: -52px;
 			z-index: -1;
-
-			@include animation(fox-tail, 6s, 8s, infinite, linear);
 		}
 
 		&:before
@@ -408,8 +401,6 @@ body.node-type-child-and-youth-page
 			position: absolute;
 			left: 31px;
 			top: -7px;
-
-			@include animation(fox-left-ear, 4s, 10s, infinite, linear);
 		}
 		&:after
 		{
@@ -420,8 +411,6 @@ body.node-type-child-and-youth-page
 			position: absolute;
 			left: 54px;
 			top: -14px;
-
-			@include animation(fox-right-ear, 4s, 10s, infinite, linear);
 		}
 	}
 
@@ -445,8 +434,6 @@ body.node-type-child-and-youth-page
 			left:0;
 			background: url(../images/worm-dirt-1.png) no-repeat;
 			z-index: 2;
-
-			@include animation(worm-dirt-1, 3s, 15s, infinite, steps(1));
 		}
 		&:after
 		{
@@ -459,8 +446,6 @@ body.node-type-child-and-youth-page
 			left:2px;
 			background: url(../images/worm-dirt-2.png) no-repeat;
 			z-index: 0;
-
-			@include animation(worm-dirt-2, 3s, 15s, infinite, steps(1));
 		}
 
 		& > div
@@ -472,7 +457,6 @@ body.node-type-child-and-youth-page
 			z-index: 1;
 
 			@include transform(rotate(90deg) translateY(10px) translateX(-10px));
-			@include animation(worm, 3s, 15s, infinite, linear);
 
 			& > div
 			{
@@ -502,8 +486,6 @@ body.node-type-child-and-youth-page
 			top:-1px;
 			background: url(../images/egg.png) no-repeat;
 
-			@include animation(egg, 2s, 7.5s, infinite, linear);
-
 			& > div
 			{
 				width:100%;
@@ -513,9 +495,66 @@ body.node-type-child-and-youth-page
 				position: absolute;
 				bottom: 0;
 				left: 0;
+			}
+		}
+	}
 
+	&:not(.stop-animation)
+	{
+		#kite:before
+		{
+			@include animation(kite, 0, 6s, infinite, linear);
+		}
+		#apple
+		{
+			@include animation(apple, 3s, 15s, infinite, linear);
+		}
+		#bird > div
+		{
+			@include animation(bird, 3s, 10s, infinite, steps(1));
+		}
+		#fox
+		{
+			& > div
+			{
+				@include animation(fox-tail, 6s, 8s, infinite, linear);
+			}
+			&:before
+			{
+				@include animation(fox-left-ear, 4s, 10s, infinite, linear);
+			}
+			&:after
+			{
+				@include animation(fox-right-ear, 4s, 10s, infinite, linear);
+			}
+		}
+		#worm
+		{
+			&:before
+			{
+				@include animation(worm-dirt-1, 3s, 15s, infinite, steps(1));
+			}
+			&:after
+			{
+				@include animation(worm-dirt-2, 3s, 15s, infinite, steps(1));
+			}
+			& > div
+			{
+				@include animation(worm, 3s, 15s, infinite, linear);
+			}
+		}
+		#nest > div
+		{
+			@include animation(egg, 2s, 7.5s, infinite, linear);
+
+			& > div
+			{
 				@include animation(egg-crack, 2s, 7.5s, infinite, ease);
 			}
+		}
+		#block-menu-menu-child-and-youth-menu > .content > div > ul > li:after
+		{
+			@include animation(ribbon, 0, 1.5s, infinite, linear);
 		}
 	}
 
@@ -562,8 +601,9 @@ body.node-type-child-and-youth-page
 
 					&:hover
 					{
-						background: $orange;
+						background: $lightorange;
 						border-bottom-color:#c87800;
+						text-shadow:0 0 3px $darkorange;
 					}
 				}
 			}
