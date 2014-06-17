@@ -1292,72 +1292,6 @@ function slcas_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'entityform-foster_application_form-field_father_of_applicant_1'
-  $field_instances['entityform-foster_application_form-field_father_of_applicant_1'] = array(
-    'bundle' => 'foster_application_form',
-    'default_value' => NULL,
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'above',
-        'module' => 'multifield',
-        'settings' => array(
-          'view_mode' => 'default',
-        ),
-        'type' => 'multifield_default',
-        'weight' => 57,
-      ),
-    ),
-    'entity_type' => 'entityform',
-    'field_name' => 'field_father_of_applicant_1',
-    'label' => 'Parent 1 of Applicant #1',
-    'required' => 0,
-    'settings' => array(
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'active' => 0,
-      'module' => 'multifield',
-      'settings' => array(),
-      'type' => 'multifield_default',
-      'weight' => 57,
-    ),
-  );
-
-  // Exported field_instance: 'entityform-foster_application_form-field_father_of_applicant_2'
-  $field_instances['entityform-foster_application_form-field_father_of_applicant_2'] = array(
-    'bundle' => 'foster_application_form',
-    'default_value' => NULL,
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'above',
-        'module' => 'multifield',
-        'settings' => array(
-          'view_mode' => 'default',
-        ),
-        'type' => 'multifield_default',
-        'weight' => 59,
-      ),
-    ),
-    'entity_type' => 'entityform',
-    'field_name' => 'field_father_of_applicant_2',
-    'label' => 'Parent 1 of Applicant #2',
-    'required' => 0,
-    'settings' => array(
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'active' => 0,
-      'module' => 'multifield',
-      'settings' => array(),
-      'type' => 'multifield_default',
-      'weight' => 59,
-    ),
-  );
-
   // Exported field_instance: 'entityform-foster_application_form-field_full_legal_name_2'
   $field_instances['entityform-foster_application_form-field_full_legal_name_2'] = array(
     'bundle' => 'foster_application_form',
@@ -2130,72 +2064,6 @@ function slcas_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'entityform-foster_application_form-field_mother_of_applicant_1'
-  $field_instances['entityform-foster_application_form-field_mother_of_applicant_1'] = array(
-    'bundle' => 'foster_application_form',
-    'default_value' => NULL,
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'above',
-        'module' => 'multifield',
-        'settings' => array(
-          'view_mode' => 'default',
-        ),
-        'type' => 'multifield_default',
-        'weight' => 58,
-      ),
-    ),
-    'entity_type' => 'entityform',
-    'field_name' => 'field_mother_of_applicant_1',
-    'label' => 'Parent 2 of Applicant #1',
-    'required' => 0,
-    'settings' => array(
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'active' => 0,
-      'module' => 'multifield',
-      'settings' => array(),
-      'type' => 'multifield_default',
-      'weight' => 58,
-    ),
-  );
-
-  // Exported field_instance: 'entityform-foster_application_form-field_mother_of_applicant_2'
-  $field_instances['entityform-foster_application_form-field_mother_of_applicant_2'] = array(
-    'bundle' => 'foster_application_form',
-    'default_value' => NULL,
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'above',
-        'module' => 'multifield',
-        'settings' => array(
-          'view_mode' => 'default',
-        ),
-        'type' => 'multifield_default',
-        'weight' => 60,
-      ),
-    ),
-    'entity_type' => 'entityform',
-    'field_name' => 'field_mother_of_applicant_2',
-    'label' => 'Parent 2 of Applicant #2',
-    'required' => 0,
-    'settings' => array(
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'active' => 0,
-      'module' => 'multifield',
-      'settings' => array(),
-      'type' => 'multifield_default',
-      'weight' => 60,
-    ),
-  );
-
   // Exported field_instance: 'entityform-foster_application_form-field_name'
   $field_instances['entityform-foster_application_form-field_name'] = array(
     'bundle' => 'foster_application_form',
@@ -2499,6 +2367,138 @@ function slcas_field_default_field_instances() {
       ),
       'type' => 'text_textarea',
       'weight' => 80,
+    ),
+  );
+
+  // Exported field_instance: 'entityform-foster_application_form-field_parent_1_of_applicant_1'
+  $field_instances['entityform-foster_application_form-field_parent_1_of_applicant_1'] = array(
+    'bundle' => 'foster_application_form',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'multifield',
+        'settings' => array(
+          'view_mode' => 'default',
+        ),
+        'type' => 'multifield_default',
+        'weight' => 57,
+      ),
+    ),
+    'entity_type' => 'entityform',
+    'field_name' => 'field_parent_1_of_applicant_1',
+    'label' => 'Parent 1 of Applicant #1',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 0,
+      'module' => 'multifield',
+      'settings' => array(),
+      'type' => 'multifield_default',
+      'weight' => 57,
+    ),
+  );
+
+  // Exported field_instance: 'entityform-foster_application_form-field_parent_1_of_applicant_2'
+  $field_instances['entityform-foster_application_form-field_parent_1_of_applicant_2'] = array(
+    'bundle' => 'foster_application_form',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'multifield',
+        'settings' => array(
+          'view_mode' => 'default',
+        ),
+        'type' => 'multifield_default',
+        'weight' => 59,
+      ),
+    ),
+    'entity_type' => 'entityform',
+    'field_name' => 'field_parent_1_of_applicant_2',
+    'label' => 'Parent 1 of Applicant #2',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 0,
+      'module' => 'multifield',
+      'settings' => array(),
+      'type' => 'multifield_default',
+      'weight' => 59,
+    ),
+  );
+
+  // Exported field_instance: 'entityform-foster_application_form-field_parent_2_of_applicant_1'
+  $field_instances['entityform-foster_application_form-field_parent_2_of_applicant_1'] = array(
+    'bundle' => 'foster_application_form',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'multifield',
+        'settings' => array(
+          'view_mode' => 'default',
+        ),
+        'type' => 'multifield_default',
+        'weight' => 58,
+      ),
+    ),
+    'entity_type' => 'entityform',
+    'field_name' => 'field_parent_2_of_applicant_1',
+    'label' => 'Parent 2 of Applicant #1',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 0,
+      'module' => 'multifield',
+      'settings' => array(),
+      'type' => 'multifield_default',
+      'weight' => 58,
+    ),
+  );
+
+  // Exported field_instance: 'entityform-foster_application_form-field_parent_2_of_applicant_2'
+  $field_instances['entityform-foster_application_form-field_parent_2_of_applicant_2'] = array(
+    'bundle' => 'foster_application_form',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'multifield',
+        'settings' => array(
+          'view_mode' => 'default',
+        ),
+        'type' => 'multifield_default',
+        'weight' => 60,
+      ),
+    ),
+    'entity_type' => 'entityform',
+    'field_name' => 'field_parent_2_of_applicant_2',
+    'label' => 'Parent 2 of Applicant #2',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 0,
+      'module' => 'multifield',
+      'settings' => array(),
+      'type' => 'multifield_default',
+      'weight' => 60,
     ),
   );
 
@@ -3387,7 +3387,7 @@ function slcas_field_default_field_instances() {
       'module' => 'options',
       'settings' => array(),
       'type' => 'options_select',
-      'weight' => 13,
+      'weight' => 14,
     ),
   );
 
@@ -3454,7 +3454,7 @@ function slcas_field_default_field_instances() {
         'rows' => 5,
       ),
       'type' => 'text_textarea',
-      'weight' => 14,
+      'weight' => 13,
     ),
   );
 
@@ -3583,7 +3583,7 @@ function slcas_field_default_field_instances() {
         'rows' => 5,
       ),
       'type' => 'text_textarea',
-      'weight' => 17,
+      'weight' => 16,
     ),
   );
 
@@ -3817,7 +3817,7 @@ function slcas_field_default_field_instances() {
         'rows' => 5,
       ),
       'type' => 'text_textarea',
-      'weight' => 16,
+      'weight' => 15,
     ),
   );
 
@@ -3847,7 +3847,7 @@ function slcas_field_default_field_instances() {
       'module' => 'markup',
       'settings' => array(),
       'type' => 'markup',
-      'weight' => 18,
+      'weight' => 17,
     ),
   );
 
@@ -4966,359 +4966,6 @@ function slcas_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'multifield-mother-field_address_apt_unit_no'
-  $field_instances['multifield-mother-field_address_apt_unit_no'] = array(
-    'bundle' => 'mother',
-    'default_value' => NULL,
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'above',
-        'module' => 'text',
-        'settings' => array(),
-        'type' => 'text_default',
-        'weight' => 4,
-      ),
-    ),
-    'entity_type' => 'multifield',
-    'field_name' => 'field_address_apt_unit_no',
-    'label' => 'Address',
-    'required' => 0,
-    'settings' => array(
-      'text_processing' => 0,
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'active' => 1,
-      'module' => 'text',
-      'settings' => array(
-        'size' => 60,
-      ),
-      'type' => 'text_textfield',
-      'weight' => 6,
-    ),
-  );
-
-  // Exported field_instance: 'multifield-mother-field_birthplace'
-  $field_instances['multifield-mother-field_birthplace'] = array(
-    'bundle' => 'mother',
-    'default_value' => NULL,
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'above',
-        'module' => 'text',
-        'settings' => array(),
-        'type' => 'text_default',
-        'weight' => 5,
-      ),
-    ),
-    'entity_type' => 'multifield',
-    'field_name' => 'field_birthplace',
-    'label' => 'Birthplace',
-    'required' => 0,
-    'settings' => array(
-      'text_processing' => 0,
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'active' => 1,
-      'module' => 'text',
-      'settings' => array(
-        'size' => 60,
-      ),
-      'type' => 'text_textfield',
-      'weight' => 8,
-    ),
-  );
-
-  // Exported field_instance: 'multifield-mother-field_date_of_birth'
-  $field_instances['multifield-mother-field_date_of_birth'] = array(
-    'bundle' => 'mother',
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'above',
-        'module' => 'date',
-        'settings' => array(
-          'format_type' => 'long',
-          'fromto' => 'both',
-          'multiple_from' => '',
-          'multiple_number' => '',
-          'multiple_to' => '',
-        ),
-        'type' => 'date_default',
-        'weight' => 1,
-      ),
-    ),
-    'entity_type' => 'multifield',
-    'field_name' => 'field_date_of_birth',
-    'label' => 'Date of Birth',
-    'required' => 0,
-    'settings' => array(
-      'default_value' => 'blank',
-      'default_value2' => 'same',
-      'default_value_code' => '',
-      'default_value_code2' => '',
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'active' => 1,
-      'module' => 'date',
-      'settings' => array(
-        'increment' => 15,
-        'input_format' => 'm/d/Y - H:i:s',
-        'input_format_custom' => '',
-        'label_position' => 'above',
-        'text_parts' => array(),
-        'year_range' => '1900:+0',
-      ),
-      'type' => 'date_select',
-      'weight' => 2,
-    ),
-  );
-
-  // Exported field_instance: 'multifield-mother-field_education'
-  $field_instances['multifield-mother-field_education'] = array(
-    'bundle' => 'mother',
-    'default_value' => NULL,
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'above',
-        'module' => 'text',
-        'settings' => array(),
-        'type' => 'text_default',
-        'weight' => 8,
-      ),
-    ),
-    'entity_type' => 'multifield',
-    'field_name' => 'field_education',
-    'label' => 'Education',
-    'required' => 0,
-    'settings' => array(
-      'text_processing' => 0,
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'active' => 1,
-      'module' => 'text',
-      'settings' => array(
-        'size' => 60,
-      ),
-      'type' => 'text_textfield',
-      'weight' => 14,
-    ),
-  );
-
-  // Exported field_instance: 'multifield-mother-field_health'
-  $field_instances['multifield-mother-field_health'] = array(
-    'bundle' => 'mother',
-    'default_value' => NULL,
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'above',
-        'module' => 'text',
-        'settings' => array(),
-        'type' => 'text_default',
-        'weight' => 6,
-      ),
-    ),
-    'entity_type' => 'multifield',
-    'field_name' => 'field_health',
-    'label' => 'Health',
-    'required' => 0,
-    'settings' => array(
-      'text_processing' => 0,
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'active' => 1,
-      'module' => 'text',
-      'settings' => array(
-        'size' => 60,
-      ),
-      'type' => 'text_textfield',
-      'weight' => 10,
-    ),
-  );
-
-  // Exported field_instance: 'multifield-mother-field_if_deceased'
-  $field_instances['multifield-mother-field_if_deceased'] = array(
-    'bundle' => 'mother',
-    'default_value' => NULL,
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'above',
-        'module' => 'text',
-        'settings' => array(),
-        'type' => 'text_default',
-        'weight' => 3,
-      ),
-    ),
-    'entity_type' => 'multifield',
-    'field_name' => 'field_if_deceased',
-    'label' => 'If deceased: date & cause of death',
-    'required' => 0,
-    'settings' => array(
-      'text_processing' => 0,
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'active' => 1,
-      'module' => 'text',
-      'settings' => array(
-        'size' => 60,
-      ),
-      'type' => 'text_textfield',
-      'weight' => 4,
-    ),
-  );
-
-  // Exported field_instance: 'multifield-mother-field_maiden_name'
-  $field_instances['multifield-mother-field_maiden_name'] = array(
-    'bundle' => 'mother',
-    'default_value' => NULL,
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'above',
-        'module' => 'text',
-        'settings' => array(),
-        'type' => 'text_default',
-        'weight' => 2,
-      ),
-    ),
-    'entity_type' => 'multifield',
-    'field_name' => 'field_maiden_name',
-    'label' => 'Maiden Name',
-    'required' => 0,
-    'settings' => array(
-      'text_processing' => 0,
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'active' => 1,
-      'module' => 'text',
-      'settings' => array(
-        'size' => 60,
-      ),
-      'type' => 'text_textfield',
-      'weight' => 1,
-    ),
-  );
-
-  // Exported field_instance: 'multifield-mother-field_marital_status_dates'
-  $field_instances['multifield-mother-field_marital_status_dates'] = array(
-    'bundle' => 'mother',
-    'default_value' => NULL,
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'above',
-        'module' => 'text',
-        'settings' => array(),
-        'type' => 'text_default',
-        'weight' => 7,
-      ),
-    ),
-    'entity_type' => 'multifield',
-    'field_name' => 'field_marital_status_dates',
-    'label' => 'Marital Status - Dates',
-    'required' => 0,
-    'settings' => array(
-      'text_processing' => 0,
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'active' => 1,
-      'module' => 'text',
-      'settings' => array(
-        'size' => 60,
-      ),
-      'type' => 'text_textfield',
-      'weight' => 12,
-    ),
-  );
-
-  // Exported field_instance: 'multifield-mother-field_name'
-  $field_instances['multifield-mother-field_name'] = array(
-    'bundle' => 'mother',
-    'default_value' => NULL,
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'above',
-        'module' => 'text',
-        'settings' => array(),
-        'type' => 'text_default',
-        'weight' => 0,
-      ),
-    ),
-    'entity_type' => 'multifield',
-    'field_name' => 'field_name',
-    'label' => 'Full Name',
-    'required' => 0,
-    'settings' => array(
-      'text_processing' => 0,
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'active' => 1,
-      'module' => 'text',
-      'settings' => array(
-        'size' => 60,
-      ),
-      'type' => 'text_textfield',
-      'weight' => 0,
-    ),
-  );
-
-  // Exported field_instance: 'multifield-mother-field_occupation'
-  $field_instances['multifield-mother-field_occupation'] = array(
-    'bundle' => 'mother',
-    'default_value' => NULL,
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'above',
-        'module' => 'text',
-        'settings' => array(),
-        'type' => 'text_default',
-        'weight' => 9,
-      ),
-    ),
-    'entity_type' => 'multifield',
-    'field_name' => 'field_occupation',
-    'label' => 'Principal Occupation',
-    'required' => 0,
-    'settings' => array(
-      'text_processing' => 0,
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'active' => 1,
-      'module' => 'text',
-      'settings' => array(
-        'size' => 60,
-      ),
-      'type' => 'text_textfield',
-      'weight' => 16,
-    ),
-  );
-
   // Exported field_instance: 'multifield-other_adults-field_age'
   $field_instances['multifield-other_adults-field_age'] = array(
     'bundle' => 'other_adults',
@@ -5488,7 +5135,7 @@ function slcas_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 3,
+      'weight' => 4,
     ),
   );
 
@@ -5522,7 +5169,7 @@ function slcas_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 4,
+      'weight' => 5,
     ),
   );
 
@@ -5569,7 +5216,7 @@ function slcas_field_default_field_instances() {
         'year_range' => '1900:+0',
       ),
       'type' => 'date_select',
-      'weight' => 1,
+      'weight' => 2,
     ),
   );
 
@@ -5603,7 +5250,7 @@ function slcas_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 7,
+      'weight' => 8,
     ),
   );
 
@@ -5637,7 +5284,7 @@ function slcas_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 5,
+      'weight' => 6,
     ),
   );
 
@@ -5671,7 +5318,7 @@ function slcas_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 2,
+      'weight' => 3,
     ),
   );
 
@@ -5705,7 +5352,7 @@ function slcas_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 6,
+      'weight' => 7,
     ),
   );
 
@@ -5773,7 +5420,7 @@ function slcas_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 8,
+      'weight' => 9,
     ),
   );
 

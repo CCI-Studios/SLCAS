@@ -966,13 +966,59 @@ function slcas_strongarm() {
   $strongarm->name = 'imce_roles_profiles';
   $strongarm->value = array(
     3 => array(
+      'weight' => '0',
+      'public_pid' => '1',
+      'private_pid' => 0,
+    ),
+    8 => array(
+      'weight' => '0',
+      'public_pid' => '1',
+      'private_pid' => 0,
+    ),
+    4 => array(
+      'weight' => '0',
       'public_pid' => 0,
+      'private_pid' => 0,
+    ),
+    7 => array(
+      'weight' => '0',
+      'public_pid' => 0,
+      'private_pid' => 0,
+    ),
+    5 => array(
+      'weight' => '0',
+      'public_pid' => 0,
+      'private_pid' => 0,
+    ),
+    9 => array(
+      'weight' => '0',
+      'public_pid' => '1',
+      'private_pid' => 0,
+    ),
+    6 => array(
+      'weight' => '0',
+      'public_pid' => 0,
+      'private_pid' => 0,
+    ),
+    10 => array(
+      'weight' => '0',
+      'public_pid' => '1',
+      'private_pid' => 0,
+    ),
+    11 => array(
+      'weight' => '0',
+      'public_pid' => '1',
+      'private_pid' => 0,
     ),
     2 => array(
+      'weight' => 11,
       'public_pid' => 0,
+      'private_pid' => 0,
     ),
     1 => array(
+      'weight' => 12,
       'public_pid' => 0,
+      'private_pid' => 0,
     ),
   );
   $export['imce_roles_profiles'] = $strongarm;

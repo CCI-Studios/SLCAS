@@ -38,7 +38,7 @@ function slcas_multifield_default_multifield() {
   $multifield->disabled = FALSE; /* Edit this to true to make a default multifield disabled initially */
   $multifield->api_version = 1;
   $multifield->machine_name = 'parent';
-  $multifield->label = 'Father';
+  $multifield->label = 'Parent';
   $multifield->description = 'parent';
   $export['parent'] = $multifield;
 

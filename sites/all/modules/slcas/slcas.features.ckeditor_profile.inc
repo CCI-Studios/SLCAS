@@ -18,7 +18,7 @@ function slcas_ckeditor_profile_defaults() {
     [\'NumberedList\',\'BulletedList\',\'-\',\'Outdent\',\'Indent\'],
     [\'JustifyLeft\',\'JustifyCenter\',\'JustifyRight\'],
     [\'RemoveFormat\'],
-    [\'Link\',\'Unlink\',\'Table\',\'Image\',\'HorizontalRule\']
+    [\'Link\',\'Unlink\',\'Table\',\'Image\',\'HorizontalRule\',\'Anchor\']
 ]',
         'expand' => 't',
         'default' => 't',

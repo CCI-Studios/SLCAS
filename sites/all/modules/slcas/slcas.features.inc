@@ -66,22 +66,6 @@ function slcas_default_entity_rule_setting() {
     "false_msg" : null,
     "rdf_mapping" : []
   }');
-  $items['3'] = entity_import('entity_rule_setting', '{
-    "id" : "3",
-    "entity_type" : "entityform",
-    "bundle" : "foster_application_form",
-    "op" : "entityform_submission",
-    "rules_config" : "rules_entityform_notification_email_admin",
-    "weight" : "0",
-    "args" : {
-      "email_subject" : "Form submission: Foster Application Form",
-      "email_body" : "",
-      "show_submission" : 1,
-      "to_email" : "recruitment@slcas.on.ca"
-    },
-    "false_msg" : null,
-    "rdf_mapping" : []
-  }');
   return $items;
 }
 
