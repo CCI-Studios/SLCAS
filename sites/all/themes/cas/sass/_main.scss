@@ -10,6 +10,16 @@ body, html
 	overflow:hidden;
 }
 
+.pager
+{
+	list-style: none;
+	
+	li
+	{
+		display: inline-block;
+	}
+}
+
 #sidebar
 {
 	position:fixed;

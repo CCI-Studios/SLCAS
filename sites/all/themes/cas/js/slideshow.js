@@ -30,7 +30,7 @@
 
 	function resizeHeader()
 	{
-		$slideshow_block.height($slideshow_block.width()*0.4);
+		$slideshow_block.height($slideshow_block.width()*0.3);
 	}
 
 	function indicatorClick(i)

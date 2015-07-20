@@ -1,8 +1,8 @@
 <?php
 
 $aliases['dev'] = array(
-	'uri'=> 'slcas2.ccistaging.com',
-	'root' => '/home/staging/subdomains/slcas2/public_html',
+	'uri'=> 'slcas.ccistaging.com',
+	'root' => '/home/staging/subdomains/slcas/public_html',
 	'remote-host'=> 'host.ccistudios.com',
 	'remote-user'=> 'staging',
 	'path-aliases'=> array(
@@ -12,9 +12,9 @@ $aliases['dev'] = array(
 );
 
 $aliases['live'] = array(
-	'uri'=> 'slcas.on.ca',
+	'uri'=> 'www.slcas.on.ca',
 	'root' => '/home/slcas/subdomains/live/public_html',
-	'remote-host'=> 'host.lambtonshield.com',
+	'remote-host'=> 'host.cciserver2.com',
 	'remote-user'=> 'slcas',
 	'path-aliases'=> array(
 		'%files'=> 'sites/default/files',
