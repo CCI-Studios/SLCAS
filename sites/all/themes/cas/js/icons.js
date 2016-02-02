@@ -5,10 +5,9 @@
             icon = "news";
         if ($("body").hasClass("user-login")
         || $("body").hasClass("node-type-staff-page")
-        || $("body").hasClass("node-type-board-page")
         || $("body").hasClass("node-type-forum")
         || $("body").hasClass("page-forum")
-        || $("body").hasClass("node-type-foster-parent-and-volunteer-page"))
+        )
                 icon = "login";
 
         switch(icon)
@@ -37,6 +36,9 @@
         case "Foster":
             icon = "foster";
             break;
+        case "tree":
+        icon = "tree";
+        break;
         }
 
         if (icon)

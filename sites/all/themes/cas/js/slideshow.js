@@ -25,12 +25,12 @@
 		$(window).resize(resizeHeader);
 		resizeHeader();
 
-		slideshow_timer = setInterval(next, 5000);
+		slideshow_timer = setInterval(next, 12000);
 	});
 
 	function resizeHeader()
 	{
-		$slideshow_block.height($slideshow_block.width()*0.4);
+		$slideshow_block.height($slideshow_block.width()*0.3);
 	}
 
 	function indicatorClick(i)

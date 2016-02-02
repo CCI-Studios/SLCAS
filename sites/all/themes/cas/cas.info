@@ -16,7 +16,7 @@ scripts[] = js/anchors.js
 
 
 stylesheets[all][] = stylesheets/screen.css
-
+stylesheets[all][] = css/screen.css
 regions[sidebar] = Sidebar
 regions[top] = Top
 regions[header] = Header

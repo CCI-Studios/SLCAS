@@ -75,7 +75,7 @@
 
 <div id="sidebar"><div><div>
   <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
-    <img src="/sites/all/themes/cas/images/logo.png" alt="Sarnia-Lambton Children's Aid Society" />
+    <img src="/sites/all/themes/cas/images/logo-new.png" alt="Sarnia-Lambton Children's Aid Society" />
   </a>
   <?php print render($page['sidebar']); ?>
 </div></div></div>

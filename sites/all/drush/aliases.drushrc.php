@@ -12,9 +12,9 @@ $aliases['dev'] = array(
 );
 
 $aliases['live'] = array(
-	'uri'=> 'slcas.on.ca',
+	'uri'=> 'www.slcas.on.ca',
 	'root' => '/home/slcas/subdomains/live/public_html',
-	'remote-host'=> 'host.lambtonshield.com',
+	'remote-host'=> 'host.cciserver2.com',
 	'remote-user'=> 'slcas',
 	'path-aliases'=> array(
 		'%files'=> 'sites/default/files',

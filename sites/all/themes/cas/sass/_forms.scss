@@ -4,7 +4,6 @@ input[type=password],
 input[type=number],
 textarea
 {
-	border-color:$blue;
 	border-width:1px;
 	font-size:0.9em;
 	color:$blue;
@@ -12,7 +11,7 @@ textarea
 	padding:0 8px;
 	height:25px;
 	line-height:25px;
-	box-shadow:2px 2px 4px rgba(0,83,160,0.3) inset;
+	border: 1px solid #bcbcbc;
 }
 
 textarea
@@ -417,7 +416,8 @@ form#comment-form
 	}
 }
 
-form#foster-application-form-entityform-edit-form
+form#foster-application-form-entityform-edit-form,
+form#complaint-entityform-edit-form
 {
 	fieldset
 	{
@@ -608,7 +608,7 @@ form#foster-application-form-entityform-edit-form
 					display: block;
 					width: 26px;
 					height: 26px;
-					background: url(../images/checkbox.png) no-repeat left center;
+					background: url(../images/checkbox-new.png) no-repeat left center;
 					position: absolute;
 					top: 0;
 					right: 0;
@@ -616,7 +616,7 @@ form#foster-application-form-entityform-edit-form
 
 				input:checked + label:after
 				{
-					background-position:-26px center;
+					background-position:-25px center;
 				}
 
 				input:focus + label:after
@@ -636,3 +636,18 @@ form#foster-application-form-entityform-edit-form
 		}
 	}
 }
+
+
+form#complaint-entityform-edit-form
+{
+	.form-item-field-certify1-und > label
+	{
+		display: none;
+	}	
+
+	.form-checkboxes .form-item
+	{
+		width:500px;
+	}
+}
+
