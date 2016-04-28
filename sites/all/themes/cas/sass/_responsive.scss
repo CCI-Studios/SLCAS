@@ -1,3 +1,10 @@
+@media screen and (min-width:1221px)
+{
+    #block-system-main-menu
+    {
+        display: block!important;
+    }
+}
 @media screen and (max-width:1220px)
 {
     body.node-type-child-and-youth-page
@@ -40,12 +47,145 @@
             }
         }
     }
+
+    html body.navbar-administration.navbar-vertical 
+    {
+        #logo
+        {
+            top:20px;
+            left:0px;
+        }
+    }
+
+    #block-block-1
+    {
+        top:-3px;
+    }
+
+    #logo
+    {
+        position: relative;
+         top:80px;
+         left:0px;
+    }
+
+    #block-block-8
+    {
+        padding:50px 0px 20px;
+    }
+ 
+    #sidebar 
+    {   
+
+        a#menu-btn
+        {
+          display: block;
+          background:$blue;
+        }
+      
+        #block-system-main-menu
+        {
+            &> .content > div > ul > li
+            {
+                display: block;
+                border-bottom: 1px solid white;
+            }
+        }
+    }
+
+
+    #block-system-main-menu
+    {
+        display:none;
+        position: absolute;
+        top:auto;
+        right: 0;
+        left: 0;
+        z-index: 9999;
+        background: $blue;
+        border-bottom:3px solid white;
+        box-shadow:0 2px 5px rgba(0,0,0,0.5);
+
+        & > .content > div > ul > li
+        {
+            &:hover > a
+            {
+                background: $orange;
+            }
+
+            & > a,
+            &.expanded > a
+            {
+                padding:16px 0;
+            }
+        }
+
+        ul div
+        {
+            display: none!important;
+        }
+
+        #block-menu-menu-social-menu-2
+        {
+            display: block;
+
+            & > .content
+            {
+                text-align:center;
+
+                li
+                {
+                    display:inline-block;
+                    margin:14px 5px;
+                }
+
+                a
+                {
+        
+                    &.fb
+                    {
+                        background-image: url(../images/icon-fb.png);
+                    }
+                    &.linkedin
+                    {
+                        background-image: url(../images/icon-linkedin1.png);
+                    }
+                }
+            }
+        }
+    }
 }
 
 
 
 @media screen and (max-width:1060px)
-{
+{   
+    #block-block-1
+    {
+        width: 150px;
+        top:40px;
+
+        img
+        {
+            width: 100%!important;
+            height: auto!important;
+        }
+
+    }
+
+    #top .region-top
+    {
+        padding-right: 0px;
+    }
+
+    html body.navbar-administration.navbar-vertical
+    {
+         #block-block-1
+        {
+            top:40px;
+        }
+    }
+
     #footer
     {
         #block-menu-menu-footer-menu
@@ -196,13 +336,13 @@
         }
     }
 
+
+
     #sidebar
     {
-        width:180px;
 
         #logo img
         {
-            width:90%;
             height:auto;
         }
 
@@ -231,11 +371,6 @@
             }
 
         }
-    }
-
-    #page-wrapper
-    {
-        padding-left:180px;
     }
 }
 
@@ -333,9 +468,28 @@
 
 
 @media screen and (max-width:805px),
-screen and (max-device-width:1024px) and (min-device-width:768px) and (orientation:landscape),
-screen and (max-height:580px)
-{
+screen and (max-device-width:1024px) and (min-device-width:768px) and (orientation:landscape)
+{   
+   #block-block-1
+    {
+        position: relative;
+        top:auto;
+        text-align: center;
+        width:220px;
+        margin: 0 auto;
+        right:auto;
+        padding:20px 0px;
+
+    }
+
+    html body.navbar-administration.navbar-vertical 
+    {
+        #block-block-1
+        {
+            top:auto;
+        }
+    }
+
     #sidebar
     {
         position: static;
@@ -347,6 +501,7 @@ screen and (max-height:580px)
         {
             padding-bottom:20px;
             margin-bottom: 30px;
+            top:20px;
 
             img
             {
@@ -354,16 +509,21 @@ screen and (max-height:580px)
             }
         }
 
-        a#menu-btn
+     
+
+        #block-block-8
         {
-            display: block;
+            padding:20px 10px;
+            margin-top: 0px;
+            padding-bottom:0px;
         }
 
         #block-block-1
-        {
+        {   
+             width:150px;
             img
             {
-                max-width:220px;
+               
                 display: block;
                 margin: -5px auto 0 auto;
             }
@@ -382,79 +542,6 @@ screen and (max-height:580px)
             position: relative;
         }
 
-        #block-system-main-menu
-        {
-            display:none;
-            position: absolute;
-            top:51px;
-            right: 0;
-            left: 0;
-            z-index: 999;
-            background: $blue;
-            border-bottom:3px solid white;
-            box-shadow:0 2px 5px rgba(0,0,0,0.5);
-
-            & > .content > div > ul > li
-            {
-                &:hover > a
-                {
-                    background: $orange;
-                }
-
-                & > a,
-                &.expanded > a
-                {
-                    padding:16px 0;
-                }
-            }
-
-            ul div
-            {
-                display: none!important;
-            }
-
-            #block-menu-menu-social-menu-2
-            {
-                display: block;
-
-                & > .content
-                {
-                    text-align:center;
-
-                    li
-                    {
-                        display:inline-block;
-                        margin:14px 5px;
-                    }
-
-                    a
-                    {
-                        width:23px;
-                        height: 24px;
-                        display: block;
-                        background-repeat: no-repeat;
-                        background-position:left center;
-                        color:transparent;
-                        text-indent:-99999px;
-
-                        &.fb
-                        {
-                            background-image: url(../images/fb.png);
-                        }
-                        &.linkedin
-                        {
-                            background-image: url(../images/in.png);
-                        }
-
-                        &:hover
-                        {
-                            background-color:none;
-                            background-position:-23px center;
-                        }
-                    }
-                }
-            }
-        }
     }
 
     #page-wrapper
@@ -522,7 +609,13 @@ screen and (max-height:580px)
     }
 }
 
-
+@media screen and (max-width:768px)
+{
+   #block-system-main-menu
+    {
+        top:45px;
+    }
+}
 
 @media screen and (max-width:640px)
 {
@@ -875,6 +968,23 @@ screen and (max-height:580px)
             }
         }
     }
+
+
+
+    html body.navbar-administration.navbar-vertical
+    {   
+        #logo
+        {
+           width:280px;
+           margin: 0 auto;
+        }
+
+        #logo img
+        {
+            width: 100%;
+        }
+
+    }
 }
 
 
@@ -981,33 +1091,3 @@ screen and (max-height:580px)
     }
 }
 
-
-
-
-@media screen and (max-height:675px)
-{
-    #logo
-    {
-        margin-bottom: 30px;
-        padding-bottom: 10px;
-
-        img
-        {
-            width: 170px;
-        }
-    }
-
-    #block-system-main-menu>.content>div>ul>li>a
-    {
-        padding-top:6px;
-        padding-bottom: 6px;
-    }
-
-    #block-block-1 img
-    {
-        width:200px!important;
-        height:auto!important;
-        margin:0 auto;
-        display: block;
-    }
-}

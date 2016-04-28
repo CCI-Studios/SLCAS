@@ -25,7 +25,7 @@
 		$(window).resize(resizeHeader);
 		resizeHeader();
 
-		slideshow_timer = setInterval(next, 5000);
+		slideshow_timer = setInterval(next, 12000);
 	});
 
 	function resizeHeader()

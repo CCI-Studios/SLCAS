@@ -1,7 +1,7 @@
 body
 {
-	font-family:"ff-ernestine-web-pro",serif;
-	font-weight: 600;
+	font-family:"Arial",serif;
+	font-weight: bold;
 	-webkit-font-smoothing:antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -12,6 +12,18 @@ input, select, textarea, button
 	font-weight:inherit;
 	-webkit-font-smoothing:antialiased;
 	-moz-osx-font-smoothing: grayscale;
+
+}
+
+#main-wrapper
+{
+	font-family:"Arial";
+	
+	h1, h2, h3, h4, h5, h6
+	{
+		font-family:"Arial",serif;
+		font-weight: bold;
+	}
 }
 
 #main-wrapper
