@@ -507,10 +507,14 @@ html body.navbar-administration.navbar-horizontal.navbar-tray-open #top {
       #footer #site-by-cci a:hover {
         text-decoration: underline; }
 
+#header {
+  background: #138faf; }
+
 #block-views-header-slideshow-block {
   position: relative;
   height: 400px;
-  width: 100%; }
+  max-width: 1020px;
+  margin: 0 auto; }
   #block-views-header-slideshow-block .content {
     position: relative;
     z-index: 1; }
@@ -3303,11 +3307,9 @@ form#complaint-entityform-edit-form .form-checkboxes .form-item {
         background-image: url(../images/icon-resources-hover2.png);
         background-image: url(../images/icon-resources-hover2.svg); }
     #section-icons a.oacas {
-      background-image: url(../images/icon-oacas.png);
-      background-image: url(../images/icon-oacas.svg); }
+      background-image: url(../images/icon-oacas.png); }
       #section-icons a.oacas:after, #section-icons a.oacas:hover {
-        background-image: url(../images/icon-oacas-hover.png);
-        background-image: url(../images/icon-oacas-hover.svg); }
+        background-image: url(../images/icon-oacas-hover.png); }
 
 #block-views-news-and-events-block {
   color: white;

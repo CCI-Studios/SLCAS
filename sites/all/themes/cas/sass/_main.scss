@@ -780,11 +780,18 @@ html body.navbar-administration.navbar-horizontal
 	}
 }
 
+#header
+{
+	background:$blue;
+}
+
 #block-views-header-slideshow-block
 {
 	position:relative;
 	height:400px;
-	width:100%;
+	max-width: 1020px;
+	margin: 0 auto;
+
 
 	.content
 	{

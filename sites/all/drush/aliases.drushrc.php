@@ -1,8 +1,8 @@
 <?php
 
 $aliases['dev'] = array(
-	'uri'=> 'slcas2.ccistaging.com',
-	'root' => '/home/staging/subdomains/slcas2/public_html',
+	'uri'=> 'slcas.ccistaging.com',
+	'root' => '/home/staging/subdomains/slcas/public_html',
 	'remote-host'=> 'host.ccistudios.com',
 	'remote-user'=> 'staging',
 	'path-aliases'=> array(
