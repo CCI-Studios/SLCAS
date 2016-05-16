@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the SLCAS feature.
+ */
+
+include_once 'slcas.features.inc';
