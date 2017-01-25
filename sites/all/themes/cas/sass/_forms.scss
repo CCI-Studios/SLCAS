@@ -143,11 +143,6 @@ form#volunteer-application-form-entityform-edit-form
 				padding-right:30px;
 			}
 		}
-
-		.form-item-field-by-sending-this-appl1-und
-		{
-			width: auto;
-		}
 	}
 
 	.form-radios
@@ -422,7 +417,6 @@ form#comment-form
 }
 
 form#foster-application-form-entityform-edit-form,
-form#new-foster-application-form-entityform-edit-form,
 form#complaint-entityform-edit-form
 {
 	fieldset
@@ -654,28 +648,6 @@ form#complaint-entityform-edit-form
 	.form-checkboxes .form-item
 	{
 		width:500px;
-	}
-}
-
-form#new-foster-application-form-entityform-edit-form
-{
-	.form-type-checkbox 
-	{	
-		label
-		{
-			float: none;
-		}
-
-		input
-		{	
-			margin: 10px;
-		}
-		
-	}
-
-	h3
-	{
-		margin-bottom: 0.5em;
 	}
 }
 
