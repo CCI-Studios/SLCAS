@@ -654,7 +654,7 @@ html body.navbar-administration.navbar-horizontal
 	#footer-search
 	{
 		position:absolute;
-		top:188px;
+		top:168px;
 		right:0;
 		width:196px;
 
@@ -709,7 +709,7 @@ html body.navbar-administration.navbar-horizontal
 	#footer-social
 	{
 		position: absolute;
-		top:188px;
+		top:168px;
 		right:115px;
 
 		ul
@@ -775,6 +775,19 @@ html body.navbar-administration.navbar-horizontal
 				text-decoration:underline;
 			}
 		}
+	}
+}
+#block-block-9
+{
+	position:absolute;
+	bottom:10px;
+	right:65px;
+	
+	@media screen and (max-width:1060px)
+	{
+		position: static;
+		margin: 30px 0;
+		text-align: center;
 	}
 }
 
