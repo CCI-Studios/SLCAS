@@ -2,6 +2,7 @@ input[type=text],
 input[type=email],
 input[type=password],
 input[type=number],
+input[type=date],
 textarea
 {
 	border-width:1px;
@@ -207,6 +208,24 @@ form#volunteer-application-form-entityform-edit-form
 			left: -99999px;
 			font-size:0;
 			color: transparent;
+		}
+	}
+	
+	.field-name-field-date-of-birth
+	{
+		.description
+		{
+			display: none;
+		}
+		input
+		{
+			clear: none;
+			width: 187px;
+		}
+		.form-item .form-item
+		{
+			margin: 0;
+			padding: 0;
 		}
 	}
 
