@@ -700,25 +700,165 @@ form#new-foster-application-form-entityform-edit-form
 
 .entitytype-formal_complaint-form
 {
+	label
+	{
+		width:270px;
+		margin-right:15px;
+		float:left;
+		clear:left;
+
+		&
+		{
+			@media (max-width: 640px)
+			{
+				display: block;
+				width: auto;
+				float: none;
+				margin-right: 0;
+			}
+		}
+	}
+
 	.form-item
 	{
-		margin-bottom: 1.5em;
+		padding:3px 0;
+		margin-bottom:10px;
+		clear:both;
+		overflow:hidden;
 	}
-	.form-radios .form-item,
-	.form-checkboxes .form-item
+	.description
 	{
-		margin-bottom: 0.25em;
+		float: left;
+    clear: left;
+    width: 270px;
+
+		&
+		{
+			@media (max-width: 640px)
+			{
+				float: none;
+				width: auto;
+			}
+		}
 	}
-	.form-type-textfield label
+	.form-radios
 	{
-		display: block;
+		padding-left:285px;
+
+		&
+		{
+			@media (max-width: 640px)
+			{
+				padding-left: 0;
+			}
+		}
+
+		.form-item
+		{
+			clear: none;
+			float: left;
+			width: 135px;
+		}
+
+		label
+		{
+			margin-right:0;
+			margin-left: 5px;
+			clear: none;
+			width:110px;
+		}
+
+		input
+		{
+			float: left;
+			margin-left:1px;
+		}
 	}
-	.field-type-datetime fieldset
+	.form-checkboxes
 	{
-		border: 0;
+		overflow:hidden;
+		margin-bottom:10px;
+
+		.form-item
+		{
+			padding-left:32px;
+			position: relative;
+			min-height:26px;
+			overflow: visible;
+
+			input
+			{
+				position: absolute;
+				top: 0;
+				left: -99999px;
+				width: 1px;
+			}
+
+			input + label:before
+			{
+				content:"";
+				display: block;
+				width: 26px;
+				height: 26px;
+				background: url(../images/checkbox-new.png) no-repeat left center;
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+
+			input:checked + label:before
+			{
+				background-position:-25px center;
+			}
+
+			input:focus + label:before
+			{
+				box-shadow:0 0 5px $blue;
+			}
+		}
+
+		label
+		{
+			width:auto;
+			float:none;
+			clear:none;
+			margin-right:0;
+			padding-right:30px;
+		}
 	}
-	.form-type-date-select .form-item
+	.field-type-datetime
 	{
-		margin-right: 10px;
+		fieldset
+		{
+			border: 0;
+		}
+		legend
+		{
+			float: left;
+			width: 270px;
+			margin-right: 15px;
+		}
+		.container-inline-date
+		{
+			clear: none;
+			width: auto;
+
+			.date-padding
+			{
+				float: none;
+				padding: 0;
+			}
+		}
+		.form-type-select
+		{
+			clear: none;
+			margin-right: 15px;
+
+			label
+			{
+				width: auto;
+				margin-right: 0;
+			}
+		}
 	}
 }
