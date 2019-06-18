@@ -697,3 +697,28 @@ form#new-foster-application-form-entityform-edit-form
 		margin-bottom: 0.5em;
 	}
 }
+
+.entitytype-formal_complaint-form
+{
+	.form-item
+	{
+		margin-bottom: 1.5em;
+	}
+	.form-radios .form-item,
+	.form-checkboxes .form-item
+	{
+		margin-bottom: 0.25em;
+	}
+	.form-type-textfield label
+	{
+		display: block;
+	}
+	.field-type-datetime fieldset
+	{
+		border: 0;
+	}
+	.form-type-date-select .form-item
+	{
+		margin-right: 10px;
+	}
+}

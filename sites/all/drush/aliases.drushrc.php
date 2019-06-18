@@ -17,5 +17,6 @@ $aliases['live'] = array(
 	'remote-user'=> 'slcas',
 	'path-aliases'=> array(
 		'%files'=> 'sites/default/files',
+		'%drush-script'=> '/home/slcas/.composer/vendor/bin/drush'
 	)
 );
